@@ -1,0 +1,429 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     17286,        420]
+NotebookOptionsPosition[     15570,        352]
+NotebookOutlinePosition[     15924,        368]
+CellTagsIndexPosition[     15881,        365]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["League of Legends", "Title",
+ CellChangeTimes->{{3.693255526628868*^9, 3.6932555379482517`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["To-Do List", "Section",
+ CellChangeTimes->{{3.692141487202628*^9, 3.6921414932261763`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Data", "Subsection",
+ CellChangeTimes->{{3.692142287257004*^9, 3.6921422876645317`*^9}}],
+
+Cell[TextData[{
+ StyleBox["1. Collect data from Patch 6.23 and 6.24\n2. Practice gathering \
+and sorting data with Datreants\n",
+  FontFamily->"Helvetica",
+  FontVariations->{"StrikeThrough"->True}],
+ StyleBox["3. Collect patch data\n4. NetworkX\n5. Excel stat, PCA principal \
+component analysis\n6. Inductive game theory Simon DeDeo, talk to Brian, \
+infering networks from data",
+  FontFamily->"Helvetica"]
+}], "Text",
+ CellChangeTimes->{{3.692141500769944*^9, 3.692141531256661*^9}, {
+   3.692142154340191*^9, 3.692142154603046*^9}, {3.692142220407629*^9, 
+   3.692142294640849*^9}, {3.6933201004825583`*^9, 3.693320114937086*^9}, {
+   3.6933206700896063`*^9, 3.693320672728128*^9}, {3.6933214534501343`*^9, 
+   3.693321471647726*^9}, {3.693321763356215*^9, 3.6933218006886578`*^9}, {
+   3.6933222450912333`*^9, 3.693322263154405*^9}, {3.693322317491959*^9, 
+   3.693322358512803*^9}, {3.6933223923159227`*^9, 3.6933224157547503`*^9}, {
+   3.693322447280765*^9, 3.6933225107602*^9}, {3.693322601167058*^9, 
+   3.6933226377553167`*^9}, {3.6933228527147503`*^9, 3.693322857999905*^9}, {
+   3.6933229339617453`*^9, 3.69332294100136*^9}, {3.693323026632402*^9, 
+   3.6933230302962427`*^9}, 3.693323189040174*^9, {3.693323284687354*^9, 
+   3.6933232860312853`*^9}, {3.693323340822857*^9, 3.6933233879865007`*^9}, {
+   3.6933235349732513`*^9, 3.693323586829131*^9}, {3.693323662555048*^9, 
+   3.693323711113345*^9}, {3.693323766722473*^9, 3.6933237878681*^9}, {
+   3.693323956099021*^9, 3.693323962969386*^9}, {3.693324004582697*^9, 
+   3.693324008702279*^9}, {3.6933240629035482`*^9, 3.693324082062804*^9}, {
+   3.694472396247314*^9, 3.694472397597192*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Website", "Subsection",
+ CellChangeTimes->{{3.692142301397653*^9, 3.692142302157432*^9}}],
+
+Cell[TextData[{
+ "1. Make NostraTeemo Logo\[LineSeparator]2. Make NostraTeemo large \
+background\n",
+ StyleBox["3. Pay for domain",
+  FontFamily->"Helvetica",
+  FontVariations->{"StrikeThrough"->True}],
+ "\n4. Finish site skeleton"
+}], "Text",
+ CellChangeTimes->{{3.692141500769944*^9, 3.692141531256661*^9}, {
+  3.692142154340191*^9, 3.692142154603046*^9}, {3.692142220407629*^9, 
+  3.692142311373302*^9}, {3.692142819603011*^9, 3.692142839544387*^9}, {
+  3.692143027029581*^9, 3.6921430314611692`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Other", "Subsection",
+ CellChangeTimes->{{3.692142314421091*^9, 3.692142314925049*^9}}],
+
+Cell["\<\
+1. Do IRB Training
+2. See what\[CloseCurlyQuote]s cool in the API challenges!\
+\>", "Text",
+ CellChangeTimes->{
+  3.692142328907115*^9, {3.692142823865584*^9, 3.692142823913536*^9}, {
+   3.692165527638349*^9, 3.6921655377634277`*^9}, {3.693157550782305*^9, 
+   3.69315755379681*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Big Picture", "Section",
+ CellChangeTimes->{{3.6921414706017847`*^9, 3.692141482098768*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Questions of interest", "Subsection",
+ CellChangeTimes->{{3.690293651063933*^9, 3.690293667822021*^9}, {
+  3.692157766205419*^9, 3.692157768263679*^9}, {3.69216283452367*^9, 
+  3.692162837385771*^9}}],
+
+Cell["\<\
+1. Is the data predictive of future patches?
+\tAre patches a course-grained state of the player data?
+\tWhich skill tiers are most predictive of patches?
+\tWhat is the time scale for patches? When does Riot analyze the data? What \
+is the window between when a patch is decided and when it is deployed?
+2. How do heirarchies form?
+\tIs the local scale or global scale more relevent in \
+player\[CloseCurlyQuote]s understanding of where a champion stands on the \
+\[OpenCurlyDoubleQuote]totem pole\[CloseCurlyDoubleQuote]?
+\tDoes the heirarchy formation have preserved aspects after every patch?
+3. What aspects are always preserved, if any?
+4. What are sinks and sources?
+5. Eigenvectors, centrality meausre before and after patch on dom heirarcy
+\tHow heir reamerges after being perterbed
+\tTE with individuals AND this stuff, micro-macro
+\tPick one patch before and after, what kind of patches, doing new chracters
+\tDo a full month of data or top players
+6. Track the influence of The Rain Man and Teemo Play
+\tIn future, that would be a cool app for professional streamers to track \
+their impact\
+\>", "Text",
+ CellChangeTimes->{{3.690293672077633*^9, 3.690293672317459*^9}, {
+   3.690299005740087*^9, 3.6902990196681757`*^9}, {3.690299090963956*^9, 
+   3.690299187771186*^9}, {3.690299608705562*^9, 3.690299614551894*^9}, {
+   3.690300657773196*^9, 3.690300715123583*^9}, {3.6903007657684307`*^9, 
+   3.690300837430365*^9}, {3.691338742116452*^9, 3.6913387624443913`*^9}, {
+   3.691339102033801*^9, 3.691339111328431*^9}, {3.6913397648900127`*^9, 
+   3.691339781848362*^9}, {3.691339854341481*^9, 3.691339911982696*^9}, {
+   3.691339942514494*^9, 3.691339947042506*^9}, {3.691340041693893*^9, 
+   3.6913400539580717`*^9}, {3.691340218753187*^9, 3.6913402263048553`*^9}, {
+   3.6913403180416927`*^9, 3.691340357582506*^9}, {3.691340467986747*^9, 
+   3.691340470953648*^9}, {3.691340503240543*^9, 3.69134050963069*^9}, {
+   3.6921418312885017`*^9, 3.692141867867494*^9}, {3.692157992315943*^9, 
+   3.6921579929160357`*^9}, 3.6921629293476753`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Questions of Current Focus (on a minor patch)", "Subsection",
+ CellChangeTimes->{{3.692162932795429*^9, 3.692162937843107*^9}, {
+  3.6921637695591183`*^9, 3.6921637728869877`*^9}}],
+
+Cell[TextData[{
+ StyleBox["How does a new heirarchy form after a patch?",
+  FontWeight->"Bold"],
+ "\n1. Calculate the dominancy heirarchies before and after the last patch\n\t\
+Making this heirarchy will involve making certain assumptions. I know that \
+champions in the top lane have an easier or harder time versus other \
+champions in the top lane. However, at this level of gameplay, it seems like \
+many champions do a lot of roaming around. Most notably, the junglers have \
+been strong lately and have a LOT of influence on the game. Supports and mids \
+are more likely to roam around, followed by top and whoever else is in bot \
+lane.\n\tTherefore, I\[CloseCurlyQuote]m going to assume that is Teemo is on \
+a winning team, then he countered all enemy champions. I would need to \
+calculate a good representative of this across all games for every champion. ",
+ StyleBox["So each edge will be a directed edge, where the direction shows \
+who, on average, counters who more often.\n\tA --> B means A counters B more \
+often than B counters A\n\tEdge weight of 0 means A counters B as often as B \
+counters A\n\tEdge weight of A --> B means how many more games A beat B more \
+than B beat A, and is weighted from 0 to 1 as a percentage\n\t\n\tInput: Data \
+from a single patch, ranked, SR only\n\tOutput: A DF of nodes, what nodes \
+they connect to, and weights\n\t\tA B 0.1\n\t\tA C 0.4\n\t\tA D 0.9 \n\t\t...",
+  FontFamily->"Helvetica",
+  FontVariations->{"StrikeThrough"->True}],
+ "\nIn parakeet paper, look up refs 71, 72, and 73. \t\nIs it a random graph, \
+or more homogeneous? \nConstructing random graphs as a control, to compare\n\t\
+\n2. Measure the eigenvectors and centrality of these networks\n3. Is local \
+or global scale more relevant in player understanding of the dominance \
+heirarchy?\n4. How does this relate to TE of individual champions?"
+}], "Text",
+ CellChangeTimes->{{3.692162965669791*^9, 3.6921630742959347`*^9}, {
+  3.6921632091295757`*^9, 3.69216328121859*^9}, {3.6921635808179827`*^9, 
+  3.692163656061144*^9}, {3.692163749121439*^9, 3.692163847841937*^9}, {
+  3.694472620954615*^9, 3.694472639640461*^9}, {3.694472693149673*^9, 
+  3.694472854233219*^9}, {3.694472898660914*^9, 3.694473145680149*^9}, {
+  3.694473282702507*^9, 3.694473398671349*^9}, {3.694530735158828*^9, 
+  3.6945307523486137`*^9}, {3.6945312300955973`*^9, 3.694531266933401*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problems Encountered", "Subsection",
+ CellChangeTimes->{{3.692163857761441*^9, 3.692163866592667*^9}}],
+
+Cell["\<\
+1. Getting the list of challenger players is an issue. The list only returns \
+the current challenger players and there doesn\[CloseCurlyQuote]t seem to be \
+a way to get a list of the challenger players as of a certain date. This list \
+is updated every minute because players are always playing. Therefore, \
+gathering data from a month ago doesn\[CloseCurlyQuote]t guarantee these \
+players were challenger-level at that time. So I\[CloseCurlyQuote]m going off \
+the assumption that players that made it to challenger today were more than \
+likely still extremely good one month ago. Could pose a problem for gathering \
+older data. NEED TO FIND a way to get a list of challenger players as of a \
+certain date.
+
+2. Weights of edges do not include sample size because they are treated as \
+probabilities. 50W to 49L is the same as 1W and 0L. But this can make sense \
+that if a character is more popular, then their odds of winning decrease \
+because people know how to play against them.\
+\>", "Text",
+ CellChangeTimes->{{3.692163999856162*^9, 3.6921640649303703`*^9}, {
+  3.692164124209709*^9, 3.6921642566459837`*^9}, {3.6945300404887323`*^9, 
+  3.694530058528901*^9}, {3.6945301435180693`*^9, 3.694530157140308*^9}, {
+  3.694530197420266*^9, 3.6945302432710867`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Notes", "Subsection",
+ CellChangeTimes->{{3.694472412924234*^9, 3.6944724134441442`*^9}}],
+
+Cell[TextData[StyleBox["Which components are correlated with the largest \
+varience\nInfer natural basis for data, is xyz right or? Get rank order of \
+which basis vectors explain the most data \nMake a matrix where x is \
+components, y is observables\nA is your matrix, R = RR^T, eig(R) -> ranked \
+PCA\nIn R, take your observation matrix and just do use prcomp()\nMaybe don\
+\[CloseCurlyQuote]t use PCA, use Logistic regression \nPCA: Use champions as \
+X, avg win % as Y, R will return a vactor for weights and a matrix for rank \
+of components\nDo on diff subsets of the data, PCA is most useful for \
+prototyping ideas and undertsanding what iss \
+\[OpenCurlyDoubleQuote]controlling\[CloseCurlyDoubleQuote] the data.. It \
+really depends on how you set up the matrix, since it will just give you the \
+persistance\nFreq dependence selection\nLimit cycles are from \
+non-linearatieis, linear correlations\nPCA over days vs weeks vs months\nPCA \
+of a PCA\nTest binning of different champions, how binning twitch in jungle \
+rather than adc is a better PCA",
+ FontFamily->"Helvetica"]], "Text",
+ CellChangeTimes->{3.694472417909041*^9}]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Back end stuff", "Section",
+ CellChangeTimes->{{3.6909052700159893`*^9, 3.690905323557494*^9}, {
+  3.6913398044157143`*^9, 3.691339805919756*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Datreants", "Subsubsection",
+ CellChangeTimes->{{3.691339811119378*^9, 3.6913398159033213`*^9}}],
+
+Cell["\<\
+Relational databases are tables
+Document databases different files for entries, or a jason structure, \
+dictionaries within dictionaries
+Mongo DB
+Datreant is for prototyping and playing around with data
+
+SFH used to mount external file system
+workon
+Learn keyboard shortcuts
+
+Notes from the demo:
+json used for webtech, passes information between web applications
+python comes with json package, called json
+or is |, & is intersection
+iloc is pandas\
+\>", "Text",
+ CellChangeTimes->{{3.6909053981998997`*^9, 3.690905516131494*^9}, {
+  3.690905563644534*^9, 3.690905569300359*^9}, {3.69090566329053*^9, 
+  3.690905666330422*^9}, {3.694183939040407*^9, 3.694183954840825*^9}, {
+  3.6941840274984083`*^9, 3.694184028586453*^9}, {3.6941841800601997`*^9, 
+  3.6941841814812517`*^9}, {3.694193554639761*^9, 3.694193557618396*^9}, {
+  3.69444996049942*^9, 3.694449965635351*^9}, {3.6944503224345703`*^9, 
+  3.694450335066144*^9}, {3.694450369359284*^9, 3.6944503814708757`*^9}, {
+  3.694451726837777*^9, 3.694451763314588*^9}, {3.694451895518107*^9, 
+  3.694451897950118*^9}}]
+}, Open  ]]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Warmachine", "Title",
+ CellChangeTimes->{{3.693255541641507*^9, 3.6932555482596617`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Notes", "Section",
+ CellChangeTimes->{{3.693085241199974*^9, 3.6930852430546827`*^9}, {
+  3.693090474587141*^9, 3.69309048900508*^9}, {3.693255918089458*^9, 
+  3.6932559184411783`*^9}}],
+
+Cell["\<\
+Stats and abilities - evalulation of points
+Playtest vs outsourcing data
+Disseminate data
+If they don\[CloseCurlyQuote]t want it, I can do it myself
+Anything with point costs and balance systems, actual of evaluation 
+Value points
+David Carl, lead game designer
+
+Faction by faction, model by model, put into a .CSV file
+THIS MODEL SHOULD BE POINTED AT THIS COST
+Are there outliers? Not based on feeling or testing
+Move to open playtesting, hop on to that, people want to have a leg to stand \
+on with it
+Not dependent on local metas
+Contextual point costs on mercs, better with trolls, etc
+
+Release new models, resculpts, etc.\
+\>", "Text",
+ CellChangeTimes->{{3.6930852991984787`*^9, 3.6930853375289383`*^9}, {
+  3.6930853926031227`*^9, 3.693085400283012*^9}, {3.69308549277281*^9, 
+  3.693085506436265*^9}, {3.6930855566761837`*^9, 3.693085583674725*^9}, {
+  3.693085721402288*^9, 3.693085730136889*^9}, {3.6930860449568987`*^9, 
+  3.6930861130115547`*^9}, {3.693086272445961*^9, 3.6930862903812227`*^9}, {
+  3.693086332240799*^9, 3.693086336959159*^9}, {3.6930863824632387`*^9, 
+  3.6930863886206713`*^9}, {3.693086693263686*^9, 3.693086711965899*^9}, {
+  3.69308679019195*^9, 3.693086809623445*^9}}]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Assumptions", "Section",
+ CellChangeTimes->{{3.69325592384098*^9, 3.693255925640601*^9}}],
+
+Cell[TextData[{
+ StyleBox["Non-board state stuff:",
+  FontWeight->"Bold"],
+ " Need to make one column per weapon; Range, RorM, Pow or PS, AOE, Crit \
+effect, Damage type, non crit effects, number of free attacks per weapon\n\t\
+Immune effects, mounts, hitpoints, weaponmaster (abilities)\n",
+ StyleBox["Board state stuff:",
+  FontWeight->"Bold"],
+ " Spells and abilities should be different and done last, depending on range \
+on tabletop and CC stuff\n\tFlight, reposition, pathfinder, eyeless sight\n\t\
+\nSome things have board state effects and non-board state effects"
+}], "Text",
+ CellChangeTimes->{{3.693255933545762*^9, 3.6932559460479803`*^9}, {
+  3.6932561414017067`*^9, 3.693256155487488*^9}, {3.693256190248254*^9, 
+  3.6932562030708113`*^9}, {3.693256235593892*^9, 3.6932562391764097`*^9}, {
+  3.6932562701569023`*^9, 3.693256348583933*^9}, {3.693256390898402*^9, 
+  3.693256418084886*^9}, {3.693256448919385*^9, 3.693256459574871*^9}, {
+  3.693256531120096*^9, 3.6932566460807858`*^9}}]
+}, Open  ]]
+}, Closed]]
+},
+WindowSize->{1272, 774},
+WindowMargins->{{Automatic, 0}, {0, Automatic}},
+FrontEndVersion->"10.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 23, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 102, 1, 92, "Title"],
+Cell[CellGroupData[{
+Cell[707, 27, 97, 1, 64, "Section"],
+Cell[CellGroupData[{
+Cell[829, 32, 94, 1, 44, "Subsection"],
+Cell[926, 35, 1656, 26, 119, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2619, 66, 95, 1, 44, "Subsection"],
+Cell[2717, 69, 504, 11, 86, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3258, 85, 93, 1, 44, "Subsection"],
+Cell[3354, 88, 293, 7, 49, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3696, 101, 98, 1, 64, "Section"],
+Cell[CellGroupData[{
+Cell[3819, 106, 206, 3, 44, "Subsection"],
+Cell[4028, 111, 2061, 34, 315, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6126, 150, 186, 2, 44, "Subsection"],
+Cell[6315, 154, 2388, 34, 458, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8740, 193, 108, 1, 44, "Subsection"],
+Cell[8851, 196, 1284, 20, 144, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10172, 221, 95, 1, 44, "Subsection"],
+Cell[10270, 224, 1139, 16, 263, "Text"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[11458, 246, 152, 2, 50, "Section"],
+Cell[CellGroupData[{
+Cell[11635, 252, 102, 1, 35, "Subsubsection"],
+Cell[11740, 255, 1079, 25, 277, "Text"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12880, 287, 95, 1, 92, "Title"],
+Cell[CellGroupData[{
+Cell[13000, 292, 191, 3, 64, "Section"],
+Cell[13194, 297, 1213, 26, 315, "Text"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[14444, 328, 95, 1, 50, "Section"],
+Cell[14542, 331, 1000, 17, 125, "Text"]
+}, Open  ]]
+}, Closed]]
+}
+]
+*)
+
+(* End of internal cache information *)
