@@ -1,0 +1,345 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10471,        336]
+NotebookOptionsPosition[      9573,        303]
+NotebookOutlinePosition[      9926,        319]
+CellTagsIndexPosition[      9883,        316]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+Formula that sums over chunks that includes chunks that repeat\
+\>", "Text",
+ CellChangeTimes->{{3.6695719410276814`*^9, 3.669571978513197*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"k", "=", "2"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"test", "=", 
+   RowBox[{"{", 
+    RowBox[{
+    "0", ",", "0", ",", "1", ",", "0", ",", "0", ",", "1", ",", "0", ",", "0",
+      ",", "0", ",", "0", ",", "1", ",", "1"}], "}"}]}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"acttotal", "=", 
+   RowBox[{"Partition", "[", 
+    RowBox[{"test", ",", 
+     RowBox[{"k", "+", "1"}], ",", "1"}], "]"}]}], " ", 
+  RowBox[{"(*", 
+   RowBox[{"All", " ", "possible", " ", "chunks"}], 
+   "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"f", "[", "x_", "]"}], ":=", 
+   RowBox[{"x", "[", 
+    RowBox[{"[", 
+     RowBox[{"1", ";;", "k"}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"actpast", "=", 
+  RowBox[{"f", "/@", "acttotal"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"actfuture", "=", 
+   RowBox[{"Last", "/@", "acttotal"}]}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Table", "[", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"pxnk", "=", 
+      RowBox[{
+       RowBox[{"Count", "[", 
+        RowBox[{"acttotal", ",", 
+         RowBox[{"acttotal", "[", 
+          RowBox[{"[", "i", "]"}], "]"}]}], "]"}], "/", 
+       RowBox[{"Length", "[", "acttotal", "]"}]}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"pxk", "=", 
+      RowBox[{
+       RowBox[{"Count", "[", 
+        RowBox[{"actpast", ",", 
+         RowBox[{"actpast", "[", 
+          RowBox[{"[", "i", "]"}], "]"}]}], "]"}], "/", 
+       RowBox[{"Length", "[", "actpast", "]"}]}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"pxn", "=", 
+      RowBox[{
+       RowBox[{"Count", "[", 
+        RowBox[{"actfuture", ",", 
+         RowBox[{"actfuture", "[", 
+          RowBox[{"[", "i", "]"}], "]"}]}], "]"}], "/", 
+       RowBox[{"Length", "[", "actfuture", "]"}]}]}], ";", 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"1", "/", 
+        RowBox[{"Length", "[", "acttotal", "]"}]}], "*", 
+       RowBox[{"Log", "[", 
+        RowBox[{"2", ",", 
+         RowBox[{"pxnk", "/", 
+          RowBox[{"(", 
+           RowBox[{"pxk", "*", "pxn"}], ")"}]}]}], "]"}]}], "//", "N"}]}], 
+    "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
+    RowBox[{"{", 
+     RowBox[{"i", ",", "1", ",", 
+      RowBox[{"Length", "[", "acttotal", "]"}]}], "}"}]}], "]"}], "//", 
+  "Total"}]}], "Input",
+ CellChangeTimes->{{3.6695720164988117`*^9, 3.669572024512886*^9}}],
+
+Cell[BoxData["2"], "Output",
+ CellChangeTimes->{3.6695720075010242`*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "0", ",", "0", ",", "1", ",", "0", ",", "0", ",", "1", ",", "0", ",", "0", 
+   ",", "0", ",", "0", ",", "1", ",", "1"}], "}"}]], "Output",
+ CellChangeTimes->{3.6695720075087957`*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "1", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "1", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "1", ",", "1"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.669572007516879*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "1"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.669572007524953*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "1", ",", "0", ",", "0", ",", "1", ",", "0", ",", "0", ",", "0", ",", "0", 
+   ",", "1", ",", "1"}], "}"}]], "Output",
+ CellChangeTimes->{3.669572007532857*^9}],
+
+Cell[BoxData["0.20998654701098748`"], "Output",
+ CellChangeTimes->{3.6695720075407553`*^9}]
+}, Open  ]],
+
+Cell["\<\
+Formula that sums over chunks that includes chunks that DONT repeat\
+\>", "Text",
+ CellChangeTimes->{{3.6695719848180532`*^9, 3.669571994992249*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"k", "=", "2"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"test", "=", 
+   RowBox[{"{", 
+    RowBox[{
+    "0", ",", "0", ",", "1", ",", "0", ",", "0", ",", "1", ",", "0", ",", "0",
+      ",", "0", ",", "0", ",", "1", ",", "1"}], "}"}]}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"acttotal", "=", 
+   RowBox[{
+    RowBox[{"Partition", "[", 
+     RowBox[{"test", ",", 
+      RowBox[{"k", "+", "1"}], ",", "1"}], "]"}], "//", 
+    "DeleteDuplicates"}]}], " ", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"All", " ", "possible", " ", "chunks"}], ",", " ", 
+    RowBox[{
+    "but", " ", "delete", " ", "the", " ", "ones", " ", "that", " ", "are", 
+     " ", "repeated"}]}], "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"f", "[", "x_", "]"}], ":=", 
+   RowBox[{"x", "[", 
+    RowBox[{"[", 
+     RowBox[{"1", ";;", "k"}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"actpast", "=", 
+  RowBox[{"f", "/@", "acttotal"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"actfuture", "=", 
+   RowBox[{"Last", "/@", "acttotal"}]}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Table", "[", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"pxnk", "=", 
+      RowBox[{
+       RowBox[{"Count", "[", 
+        RowBox[{"acttotal", ",", 
+         RowBox[{"acttotal", "[", 
+          RowBox[{"[", "i", "]"}], "]"}]}], "]"}], "/", 
+       RowBox[{"Length", "[", "acttotal", "]"}]}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"pxk", "=", 
+      RowBox[{
+       RowBox[{"Count", "[", 
+        RowBox[{"actpast", ",", 
+         RowBox[{"actpast", "[", 
+          RowBox[{"[", "i", "]"}], "]"}]}], "]"}], "/", 
+       RowBox[{"Length", "[", "actpast", "]"}]}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"pxn", "=", 
+      RowBox[{
+       RowBox[{"Count", "[", 
+        RowBox[{"actfuture", ",", 
+         RowBox[{"actfuture", "[", 
+          RowBox[{"[", "i", "]"}], "]"}]}], "]"}], "/", 
+       RowBox[{"Length", "[", "actfuture", "]"}]}]}], ";", 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"pxnk", "*", 
+       RowBox[{"Log", "[", 
+        RowBox[{"2", ",", 
+         RowBox[{"pxnk", "/", 
+          RowBox[{"(", 
+           RowBox[{"pxk", "*", "pxn"}], ")"}]}]}], "]"}]}], "//", "N"}]}], 
+    "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
+    RowBox[{"{", 
+     RowBox[{"i", ",", "1", ",", 
+      RowBox[{"Length", "[", "acttotal", "]"}]}], "}"}]}], "]"}], "//", 
+  "Total"}]}], "Input",
+ CellChangeTimes->{{3.669572031110256*^9, 3.669572041504513*^9}}],
+
+Cell[BoxData["2"], "Output",
+ CellChangeTimes->{3.66957201023505*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "0", ",", "0", ",", "1", ",", "0", ",", "0", ",", "1", ",", "0", ",", "0", 
+   ",", "0", ",", "0", ",", "1", ",", "1"}], "}"}]], "Output",
+ CellChangeTimes->{3.66957201023812*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "1", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "1", ",", "1"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.669572010243623*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "1"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.6695720102490587`*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"1", ",", "0", ",", "0", ",", "0", ",", "1"}], "}"}]], "Output",
+ CellChangeTimes->{3.669572010254498*^9}],
+
+Cell[BoxData["0.1709505944546687`"], "Output",
+ CellChangeTimes->{3.669572010260268*^9}]
+}, Open  ]]
+},
+WindowSize->{808, 651},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"10.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 23, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 154, 3, 30, "Text"],
+Cell[CellGroupData[{
+Cell[737, 27, 2530, 71, 301, "Input"],
+Cell[3270, 100, 72, 1, 28, "Output"],
+Cell[3345, 103, 224, 5, 28, "Output"],
+Cell[3572, 110, 785, 23, 46, "Output"],
+Cell[4360, 135, 685, 23, 28, "Output"],
+Cell[5048, 160, 202, 5, 28, "Output"],
+Cell[5253, 167, 91, 1, 28, "Output"]
+}, Open  ]],
+Cell[5359, 171, 159, 3, 30, "Text"],
+Cell[CellGroupData[{
+Cell[5543, 178, 2641, 74, 318, "Input"],
+Cell[8187, 254, 69, 1, 28, "Output"],
+Cell[8259, 257, 221, 5, 28, "Output"],
+Cell[8483, 264, 440, 13, 28, "Output"],
+Cell[8926, 279, 392, 13, 28, "Output"],
+Cell[9321, 294, 145, 3, 28, "Output"],
+Cell[9469, 299, 88, 1, 28, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
