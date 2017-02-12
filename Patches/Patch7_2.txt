@@ -1,0 +1,222 @@
+Mid-Patch Updates
+1/26/2017
+Darius
+TOUCHY Jungle monsters now attack Darius if pulled by E - Apprehend, rather than letting him drag them all over the map
+Champions
+
+Warwick
+Warwick, the Uncaged Wrath of Zaun, will be updated with the launch of patch 7.2! To learn more, check the following links:
+Warwick, The Uncaged Wrath of Zaun - Reveal
+"The Wrath of Zaun" Teaser
+"Engineering the Nightmare" Teaser
+Warwick Champion Spotlight
+Head to the “Extras” section of Warwick’s Champion Reveal article above for high-res images of his updated base and skin splash art!
+
+Akali
+R ratio up.
+
+Akali’s finally reached a stable (though slightly below-average) state following her changes in the assassin update. Given that her core item is being nerfed this patch (see more in the Items section!), we’re taking the opportunity to not only offset the hit to Gunblade, but get Akali to a slightly stronger spot than she was at before.
+
+Shadow Dance represents a lot of what we like about Akali’s kill pattern - it’s telegraphed, has appropriate downtime between casts, and gives the opposing team time to react with their abilities to help peel her prey. Considering all of that, we feel like it’s a good spot to help Akali successfully chain from one kill to the next once she gets going.
+R - Shadow Dance
+RATIO 0.25 ability power ⇒ 0.35 ability power
+
+Darius
+Passive damage reduced on early levels, Q damage reduced when hit by the handle.
+
+Darius is supposed to be the big bad guy who smashes you with an axe if you get too close, but right now he feels downright oppressive to lane against. Noxian Might’s early numbers are where the greatest problem lies. With a massive attack damage buff to count on, Darius’s level 1 all-in is brutally stacked in his favor. From there, his passive remains so potent through the early levels that opponents have no opportunity to recover. It’s okay for Darius to start building a lead with an early kill, but one death shouldn’t make or break the entire laning phase.
+
+We also want to reward opponents who can duel Darius by outplaying Decimate, providing they do so with caution. You should still try to avoid his giant axe altogether, but if you really wanna fight the Hand of Noxus, you might have a better chance to do so now.
+Passive - Hemorrhage
+Bonus attack damage reduced by 10 from levels 1 - 14.
+
+NOXIAN MIGHT BONUS (LV 1-6) 40/40/45/45/45/45 attack damage ⇒ 30/30/35/35/35/35 attack damage
+NOXIAN MIGHT BONUS (LV 7-13) 50/60/70/80/90/100/110 attack damage ⇒ 40/50/60/70/80/90/100 attack damage
+NOXIAN MIGHT BONUS (LV 14-18) 120/140/160/180/200 bonus attack damage (unchanged)
+Q - Decimate
+HANDLE DAMAGE 50% of blade damage ⇒ 35% of blade damage
+
+Gragas
+Armor increased. Heal on passive increased.
+
+Gragas has been struggling to survive his first clear in the post-pre-season jungle; camps with multiple monsters (which he should excel at clearing) proved particularly difficult to handle. Beefing up the Rabble Rouser’s early game enables him to more safely finish his first clears and ramp up through the rest of the game.
+General
+ARMOR 26 ⇒ 29
+Passive - Happy Hour
+HEAL ON CAST 4% of maximum health ⇒ 6% of maximum health
+
+Graves
+True Grit refreshes off any instance of damage.
+
+Back in 6.23, we shipped an under-the-hood fix to a general piece of code that True Grit uses. This corrected a bug causing True Grit to refresh off any instance of damage Graves dealt, rather than only basic attacks (as stated in the tooltip). Being correct, however, isn’t always the same as being right. The bug was in place for so long that we had balanced around it, and Graves mains had grown accustomed to the extra refreshes. So, we’re putting the behavior back in and changing the tooltip instead.
+E - Quickdraw
+BUGFIX-FIX True Grit’s duration is refreshed by Graves’s basic attacks against non-minions ⇒ basic attacks and spells against non-minions
+
+Katarina
+E ratio down.
+
+Terrorizing high level play (and the Jin Air Green Wings), to say that Katarina’s flashy update packs a punch would be an understatement. A large part of Kat’s oppressive power comes from her early all-in strength: she’s able to land multiple abilities on opponents before they have access to most of their tools. When looking at where we could even the playing field, Shunpo felt like the obvious choice for having the least actual gameplay when used solely for its damage. Katarina’s lethal takedowns should reward anticipation, execution, and dagger tossing; repeatedly clicking on your opponent in the early-game no longer carries as much weight toward that end.
+E - Shunpo
+RATIO 0.65 total attack damage ⇒ 0.5 total attack damage
+
+Lulu
+Passive damage up, Q mana cost reduced.
+
+Lulu’s prevalence as a solo laner was characterized by a combination of strengths she made little trade-offs for, making laning against her a particularly frustrating affair. We solved this by transferring some of her lane clearing power into team utility, hitting her ability to poke champions in the process. Now that the Fae Sorceress sports a healthier clearing pattern, we’re comfortable giving her some offensive power back in a way that augments both her support and solo playstyles.
+Passive - Pix, Faerie Companion
+DAMAGE 9-105 (at levels 1-18) ⇒ 15-117 (at levels 1-18)
+CONSISTENT PIX Pix’s damage now increases every level, rather than every two levels
+Q - Glitterlance
+COST 60/65/70/75/80 mana ⇒ 50/55/60/65/70 mana
+
+Master Yi
+Double Strike no longer fizzles if the first hit kills a unit. Meditate pauses E and R durations and stacks Double Strike.
+
+Master Yi’s Meditate sells itself as a “sit still, be tanky, heal up” button. The obvious in-combat use is to channel it while waiting for cooldowns to refresh or allies to arrive, but Yi mains can also make use of the button press on its own. The first case is similar to abilities like Fiora’s Riposte: activating Meditate for a split second to mitigate incoming damage, then immediately canceling it to resume the offensive. The second uses Meditate as an attack reset - equally reflex-intensive, though not nearly as much of a high moment for Yi (relative to any other basic attacker).
+
+To be clear, we’re not getting rid of Meditate’s insta-cancel uses with these changes! Instead, we’re making the channel more appealing and less punishing so the decision isn’t quite as lop-sided.
+Passive - Double Strike
+NEWLIKE LUCIAN If Double Strike’s first hit kills a unit, the second strike now searches for a new target within 300 range (prioritizes killing blows)
+W - Meditate
+NEWQUIET! Channeling Meditate pauses the durations of E - Wuju Style and R - Highlander
+NEWI’M MEDITATING Now grants Master Yi 1 stack of Double Strike per second while channeling
+
+Nidalee
+Base health and Human E’s heal up. Human W now functions like wards.
+
+It’s no secret that Nidalee’s strength in 2017 isn't what it used to be. There's a catch, though - while most Bestial Huntresses are now struggling to make ends meet, experienced Nidalee players aren’t feeling that pain. We're not in a rush to make her Queen of the Jungle again, but that doesn't mean we can't beef up her consistency. For this round of changes, we're focusing on putting power into Nidalee’s utility outside of the jungle. Making Bushwhack a more consistent Hunt activator - especially in lane - should reward creative Nidalees without putting them right back on top.
+General
+BASE HEALTH 511 ⇒ 540
+W - Bushwhack
+NEWBUSHWHARDS Traps are now invisible, have 3 health, and are disabled by control wards
+MAXIMUM TRAPS Unlimited ⇒ 4/6/8/10 at levels 1/6/11/16
+E - Primal Surge
+MINIMUM BASE HEAL 25/45/65/85/105 ⇒ 35/55/75/95/115
+MAXIMUM BASE HEAL 50/90/130/170/210 ⇒ 70/110/150/190/230
+
+Yasuo
+E damage down, now has an AD ratio.
+
+We’re okay with Yasuo maxing Sweeping Blade first if he needs to dodge stuff and be super fast, but we’re not okay with how much damage he gets on top of that mobility. That said, Yasuo’s still supposed to ramp into a late-game carry, so we added a ratio to E so he gets some of that damage back as the game progresses. You gotta earn, yo.
+E - Sweeping Blade
+DAMAGE 70/90/110/130/150 ⇒ 60/70/80/90/100
+NEWRATIO Now has an 0.2 bonus attack damage ratio (does not increase with stacks of Sweeping Blade)
+Back to top
+Items
+Lethality
+Lethality’s base effectiveness up.
+
+While Lethality’s introduction addressed the over-the-top midgame spike physical damage dealers enjoyed toward the end of the 2016 season, it’s clear we’ve gone too far in the other direction. When Lethality items do appear in builds, they’re often as third or fourth items. This presents a conundrum: most Lethality items are accompanied by out-of-combat movement speed to facilitate early-to-midgame roams and ganks, but the math just doesn’t support the investment over more concrete purchases (Caulfield’s Warhammer, for instance). So, while we’re tuning up Lethality’s damage no matter when you buy it, this change most favors early purchases. Finishing a Dirk (or perhaps even a Duskblade) once you’ve started to procure a lead will more consistently push assassins over the damage thresholds they need to get the snowball rolling.
+BASE EFFECTIVENESS Lethality immediately grants 40% ⇒ 60% of its value as flat armor penetration. The remainder scales with enemy champion level.
+EXAMPLE 10 lethality now grants 6 flat armor penetration up front plus 0.22 per enemy level, capping at the full 10 once enemies are level 18
+
+Duskblade of Draktharr
+Damage after having not been seen increased.
+
+Following up our nudge to Lethality is some love for its marquee item. Much like Infinity Edge or Rabadon’s Deathcap, Duskblade is intended to be the big purchase if you’re all-in on Lethality’s gameplan of murdering everyone that’s not a tank. That said, many champions we’d expect to see with the item (like Kha’Zix or Talon) instead opt for other big ticket AD items like Ravenous Hydra or Infinity Edge itself to push their damage output to the next level. We’re adding some more bite to Duskblade’s effect to make it shine in the situations you’d expect to see it succeed.
+NIGHTSTALKER DAMAGE 50 ⇒ 75
+
+Edge of Night
+Active cooldown reduced.
+
+Edge of Night fills out our trifecta of Lethality care packages. Similar to Duskblade, Edge is a unique item for a specific playstyle that’s getting crowded out by other options (namely, Maw of Malmortius). We actually like the tradeoff between Edge and Maw, but the trickiness of properly using Edge’s active is pushing people away from it. Targeting the cooldown opens up more flexibility and room for error when using the spell shield, making the item less punishing when you predict a teamfight incorrectly. Toss in the potential to gain multiple spell shields per fight, and you’re looking at a change that just might push this item over the Edge. Of Night.
+COOLDOWN 45 seconds ⇒ 30 seconds
+NINJA SHIELD Using Edge of Night’s active ability while Invisible/Camouflaged will no longer break the stealth.
+
+Hextech Gunblade
+Active damage reduced at early levels.
+
+As a powerful fringe item, Gunblade finds itself in a similar position to last season’s Frozen Mallet. While few champions are able to capitalize on its specific set of stats, those that can (Akali, Katarina, Corki) have uncovered Gunblade’s overbearing potential. When built as a first item, Gunblade’s active provides damage akin to a 5th spell for most users, easily overpowering the opposition with its instant nuke. We want Gunblade users to feel good about buying into an aggressive option, but the effectiveness of the item was just too much.
+ACTIVE DAMAGE 250 at all levels ⇒ 175-250 (at levels 1-18)
+
+Redemption
+Health down. Heal down at lower levels. Mana regeneration up.
+
+Redemption gives supports (especially enchanters) a way to contribute more directly to teamfights. However, its mid-game ability to dramatically turn skirmishes is making it the optimal first purchase on just about every support. In this landscape, whoever gets Redemption has a substantial advantage in all-ins, which leaves no room for other item choices. We’re significantly toning back its early strength, but keeping the teamfight impact that makes the item so redeeming.
+HEALTH 400 ⇒ 300
+MANA REGENERATION +75% base mana regen ⇒ +125% base mana regen
+HEAL 130 + 20 per target level (150 - 490) ⇒ 40 + 25 per target level (65 - 490)
+
+Knight's Vow
+Cost down.
+
+Even among protector-types like Braum, Knight’s Vow isn’t seeing much play at the moment. This might just be because everyone’s buying Redemption (see above), so we want to see how this patch shifts the support item landscape before making substantive changes to Knight’s Vow. That said, a lower price point should help encourage supports to make the switch.
+COMBINE COST 800 ⇒ 700
+TOTAL COST 2400 ⇒ 2300
+
+Eye of the Equinox
+Cost increased. Cooldown reduction added.
+
+Eye of the Equinox has been suffering two-fold. Tank supports have fallen off in popularity, and Ruby Sightstone has gotten significantly more prevalent. We’re making Eye of the Equinox a bit more attractive for tanks to hit both problems with one stone.
+COMBINE COST 550 ⇒ 650
+TOTAL COST 2200 ⇒ 2300
+COOLDOWN REDUCTION 0% ⇒ 10%
+
+Ardent Censer
+Attack speed and health drain buffs now scale with target’s level.
+
+Ardent Censer isn’t living up to its promise of empowering attack speed carries in late-game teamfights. We’re adding some scaling so Enchanters get more bang for their buck as the game progresses.
+ATTACK SPEED BUFF 20% ⇒ 20% - 35% based on target's level
+HEALTH DRAIN BUFF 20 ⇒ 20 - 35 based on target's level
+
+Chalice of Harmony
+Magic resist up.
+
+The Chalice of Harmony paths are supposed to give mage-like supports (and support-like mages) the health and mana they need to keep using their abilities. However, sustain doesn’t do much if you’re dead in two seconds. For all the magic damage showing up in bot lane right now (looking at you, Ziggs and Malzahar), Chalice is missing the mark as an option to keep supports alive while they spellcast. Slightly more magic resistance should put it on track.
+MAGIC RESIST 25 ⇒ 30
+Athene's Unholy Grail
+Spillover.
+
+MAGIC RESIST 25 ⇒ 30
+Mikael's Crucible
+Also spillover.
+
+MAGIC RESIST 35 ⇒ 40
+Back to top
+Summoner’s Rift
+Jungle Tuning
+Jungle monsters spawn three seconds later.
+
+As we’ve discussed several times recently, junglers have too much control over the early game. Last patch saw adjustments to the payoffs of camp clearing; this patch, we’re addressing how sharply the risk of early ganking has fallen since pre-season.
+
+First up: the initial jungle spawn time. With how early monsters spawn, laners are able to give Smite-less leashes at no cost. This allows junglers to take very little damage on the first camp, saving Smite’s damage nuke and sustain for later. Laners still have the option to give their junglers strong leashes, but will now pay the cost of missing a minion or two to do so.
+General
+INITIAL JUNGLE SPAWN 1:37 ⇒ 1:40
+GROMP AND KRUG SPAWN 1:49 ⇒ 1:52
+Next: camp damage. The raptors pose threat through sheer numbers; the small chickens will mess junglers up even if they burst the large one. But less-populated camps don’t have the same tradeoff: junglers who are capable of bursting the large monster take almost no damage from the camp overall. In the case of Gromp, we’re doubling down on his paradigm of dealing a ton of damage upfront, while the Ancient Krug is merely getting more damage.
+Gromp
+ATTACK DAMAGE 45 ⇒ 70
+NEWRUNNING OUT OF BREATH Attack damage decreases over the first five attacks to 50 (matching Gromp’s decaying attack speed over the first five attacks)
+NEWBOOM BOOM Gromp’s first two attacks are now shown as critical strikes
+Ancient Krug
+BASE ATTACK DAMAGE 60 ⇒ 80
+Finally: Honeyfruit’s initial spawn window. Early ganks often occur before laners get a chance to invest in vision, and when Honeyfruit’s sustain is added on top of that, junglers are at basically no risk when making their first visits to a lane. We’re pushing the Honeyfruit spawn back a bit to give laners some breathing room.
+Honeyfruit
+INITIAL SPAWN TIMER Between 5:00 and 5:30 ⇒ 6:00 and 6:30
+Rift Scuttler
+Hungry scuttles.
+FORAGING Rift Scuttlers now eat nearby Honeyfruit. If you kill them while they’re eating, you have no heart.
+Back to top
+Masteries
+
+Courage of the Colossus
+Duration down. Base shield now scales with number of nearby opponents.
+
+Courage of the Colossus should be the go-to pick for tanky champions who want to dive into the enemy team and not die immediately. But it’s also encroaching on Grasp of the Undying’s role, giving far too much consistent power in 1-on-1 situations. We want to focus Courage of the Colossus on teamfights, leaving room for Grasp of the Undying to excel in extended trades.
+SHIELD DURATION 4 seconds ⇒ 3 seconds
+BASE SHIELD 10-180 (at levels 1-18) ⇒ 3 - 54 (at levels 1-18) per enemy champion (maximum 15 - 270)
+Back to top
+Summoner Spells
+
+Ghost
+Ghost takes time to ramp up to its maximum movement speed.
+
+Right now, players are using Ghost in much the same way as Flash: a snap reaction spell in sticky situations. We think Ghost has its place in avoiding incoming ganks, but shouldn’t be so effective at escaping ganks that are already in-progress. The problem stems from Ghost giving all of its speed upfront, padding the punishment for slow response time.
+NEW0-60 IN TWO SECONDS Ghost’s movement speed now ramps up over the first two seconds, rather than activating instantly
+Back to top
+"Revealed” Indicator
+Scryer’s Bloom now uses "Revealed" particle. "Revealed" particle simplified.
+
+While we were adding the "Revealed" particle to Scryer’s Bloom, we realized that the old particle is pretty noisy. We’re updating the particle to be clearer and less obtrusive.
+SCRYER'S EYES Units revealed by Scryer's Bloom now display "Revealed" particles
+EYEDROPS "Revealed" indicator particles have been simplified to be less distracting

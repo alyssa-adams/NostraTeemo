@@ -1,0 +1,309 @@
+Mid-Patch Updates
+Camille
+Camille's gotten off to a more dominant start than anticipated, especially in lane where she's bullying opponents a bit too hard and snowballing too quickly off those leads. We're toning down her early game to give opponents a slightly longer window to keep the Steel Shadow down.
+Base stats
+ATTACK DAMAGE 62 ⇒ 60
+Q - Precision Protocol
+SECOND HIT TRUE DAMAGE CONVERSION 55~100% (at levels 1-16) ⇒ 40~100% (at levels 1-16)
+Elementalist Lux
+BUGFIX Q - Light Binding's missile no longer visually disappears before it reaches its max range
+
+Azir
+Azir’s buffs this patch were outweighed by how hard he was hit by the Rylai’s changes. We’re giving his soldier damage a mid-game boost to help mitigate that loss of strength.
+W - Arise!
+SOLDIER STAB DAMAGE, LV 1-8 50~66 (unchanged)
+SOLDIER STAB DAMAGE, LV 9-15 69/72/75/85/95/110/125 ⇒ 70/80/90/100/110/120/130
+SOLDIER STAB DAMAGE, LV 16-18 140~170 (unchanged)
+
+Ivern
+Triggerseed maxes are still pretty dominant. We’re following up with a more substantial cut to Triggerseed’s power at all ranks, especially as the game goes on.
+E - Triggerseed
+SHIELD 80/120/160/200/240 ⇒ 70/100/130/160/190
+SLOW DURATION 3 seconds ⇒ 2 seconds
+
+LeBlanc
+For somebody with a lot of roaming tools and dueling potential, LeBlanc’s wave clear doesn’t leave opponents with many options to deal with her. We want LeBlanc’s opponents to feel more rewarded for pushing her in.
+Q - Shatter Orb
+BOUNCE DAMAGE VS MINIONS 80% ⇒ 40%
+W - Distortion
+DAMAGE 85/125/165/205/245 ⇒ 85/120/155/190/225
+
+Rengar
+Rengar is having a bit too much success at starting the snowball, so his base damages need to take a hit.
+Q - Savagery
+DAMAGE PER STRIKE 40/60/80/100/120 ⇒ 35/55/75/95/115
+E - Bola Strike
+DAMAGE 50/100/150/200/250 ⇒ 50/95/140/185/230
+
+Shaco
+Shaco’s burst damage is too high - especially AP Shaco's. It’s one thing to have a high-damage combo, but Shaco’s ability to murder from stealth doesn’t give opponents enough time to react.
+Q - Deceive
+RATIO 0.5 ability power ⇒ 0.4 ability power
+E - Two-Shiv Poison
+ABILITY POWER RATIO 0.9 ability power ⇒ 0.75 ability power
+ATTACK DAMAGE RATIO 0.85 bonus attack damage ⇒ 0.75 bonus attack damage
+R - Hallucinate
+CLONE EXPLOSION DAMAGE 300/450/600 ⇒ 200/300/400
+
+Taliyah
+These changes boost Threaded Volley’s damage no matter how many rocks she lands (except in rare cases where Taliyah gets crazy amounts of ability power), but they’re especially focused on the first few hits. This makes Taliyah’s damage more reliable, even when she doesn’t have the perfect 5-rock setup.
+Q - Threaded Volley
+DAMAGE 60/80/100/120/140 ⇒ 70/95/120/145/170
+RATIO 0.4 ability power ⇒ 0.45 ability power
+DAMAGE FALLOFF Rocks after the first deal 50% damage ⇒ 40% damage
+
+Teemo
+This one’s just a bugfix.
+E - Toxic Shot
+BUGFIX Fixed a bug causing Toxic Shot’s poison to count as ability hits for the purposes of effects like Thunderlord’s Decree
+
+Smite
+Pre-season’s changes have given junglers too much early-game power. We’ll continue investigating early clears as we move into the new year, but for the moment, Smite’s sustain is going down so junglers can’t convert their early advantage into lane pressure so efficiently.
+HEALTH RESTORE 100 + 10% maximum health ⇒ 70 + 10% maximum health
+Start of Ranked 2017 Season
+The 2017 ranked season starts during patch 6.24!
+Back to top
+Champions
+
+Camille
+Camille, the Steel Shadow, will be released later on during patch 6.24! In the meantime, learn more about League’s newest champion here:
+Severed Ties
+Champion Reveal
+Champion Bio
+Champion Insights
+Inside Camille Dev
+
+Akali
+Passive procs on turrets.
+
+When we shifted Twin Disciplines from an always-on effect to one compressed into two procs, we held off on allowing it to work on structures. This was a hit to Akali’s pushing strength, given her basic attacks against structures lost some AP scaling without reaping the benefits of the updated Twin Disciplines. We did this to maintain Twin Discipline’s combat focus for the first release of her update, ensuring we’d have a clearer read on follow-up balance needs (see: last patch’s ratio buffs). Now that things have settled a bit and we’ve had a chance to observe how all the changes are playing out, we’re comfortable giving back Twin Disciplines’ pushing potential.
+Passive - Twin Disciplines
+NINJA PUSHING Can now be used against structures
+
+Azir
+W cooldown reduced. Sun Discs deal more damage and give enemies less gold.
+
+We haven’t talked much about Azir since he fell out of the spotlight about half a year ago. To quickly summarize, Azir’s got too many strengths and not enough weaknesses. This makes balance an extremely finnicky task: with no clear vulnerabilities to exploit, it’s hard to bring Azir back down once he starts picking up a lead. 
+
+This patch, we’re raising Azir’s baseline effectiveness without substantially raising his poke potential. He’ll be able to reach and maintain three soldiers more quickly when going all-in on a fight, and faster soldier charges also means better access to Shifting Sands (whether for slick getaways or the Shurima Shuffle). We’re also giving some love to the Sun Disc - “temporary replacement turret” is a cool strategic strength only Azir brings to the table, but it felt a bit bad to use since it could end up as quick gold for the enemy team.
+Passive - Shurima's Legacy
+ATTACK DAMAGE SCALING 3 per minute ⇒ 4 per minute
+ENEMY REWARD WHEN DESTROYED 100 gold ⇒ 50 gold
+W - Arise!
+CHARGE COOLDOWN 12/11/10/9/8 seconds ⇒ 10/9/8/7/6 seconds
+
+Fiddlesticks
+W damage increased early. E cooldown reduced.
+
+The new jungle hasn’t been kind to Fiddlesticks, who’s lost a lot of clearing speed against buff camps and Krugs. We’re giving him back some jungling efficiency in the early game, though it’s still safe to say the new jungle’s shifted some of Fid’s clearing strength from Dark Wind to Drain.
+W - Drain
+DAMAGE PER TICK 60/90/120/150/180 ⇒ 80/105/130/155/180
+BUFF-FIX Fixed a bug that caused Drain to not apply its final tick of damage
+E - Dark Wind
+COOLDOWN 15/14/13/12/11 seconds ⇒ 12/11.5/11/10.5/10 seconds
+
+Fizz
+Clarity improvements around how whiffed R fishes attach to enemies that step on them.
+
+One of the side effects of Chum the Waters growing with distance is that when Fizz misses, the fish pick-up radius tends to be much bigger than before. That increased size exposed some shortcomings in terms of how that pick-up mechanic is displayed, so we’re making a few visual improvements.
+R - Chum the Waters
+CAUTION TAPE Whiffed fishes now display their attachment radius to enemies
+ENTHUSIASM Whiffed fishes now visually hop onto enemies they attach to, rather than instantly teleporting onto them
+IT’S DEAD, JIM Fishes that can’t attach to enemies (dropped after hitting a spell shield or when the original target dies) don’t display the attachment ring and instead flop over onto their bellies
+Bugfixes
+Fixed a bug where W - Seastone Trident’s cooldown wasn’t refunded if it killed an enemy champion with a post-death form (ex. Karthus, Sion)
+
+Garen
+Spinning shreds enemy armor after four hits.
+
+Garen’s been struggling for a few different reasons, but the underlying theme is consistency. He’s vulnerable to peel by design, but even compared to other juggernauts, he loses way too much impact when the enemy team’s able to keep him at bay. This is nigh-inevitable as the game progresses: Garen doesn’t (and shouldn’t) have the tools to ignore the peel efforts of a coordinated team. But, once he’s stuck butting heads with the enemy frontliners, his threat vanishes since he has no means of piercing their durability. Given his lack of utility elsewhere (Nasus has Wither, Darius has Apprehend, etc), this often leaves Garen feeling like dead weight.
+
+This change isn’t a silver bullet for Garen’s problems, but lets him better carry his weight against tankier foes when he can’t reach the Villain and gives allies a way to capitalize on Garen’s efforts.
+E - Judgment
+NEWARMOR SHRED Enemy champions hit 4 times have their armor reduced by 25% for 6 seconds (hits after the 4th refresh the duration)
+
+Ivern
+E costs more mana and slows for less.
+
+Right now, Ivern is one of the most challenging champions to master. As players have climbed that curve, it’s become apparent that the wolf-cuddling jungler is pretty dang strong. His mid and late game seem about right, but the consistency of his early ganks is too damn high. Triggerseed is the main offender, with the slow providing too much consistency early on, and combined with his unique clear speed, he’s posing too much of an early threat to laners.
+E - Triggerseed
+COST 50 mana ⇒ 70 mana
+MOVEMENT SPEED SLOW 70% at all ranks ⇒ 40/45/50/55/60%
+
+Katarina
+Dagger damage increased in the early/mid game.
+
+Given Katarina’s focus on damage dealing, it’s a bit surprising that only one of her basic abilities (Bouncing Blade) gains substantial base damage with rank-up. Instead, a huge chunk of damage comes from champion level scaling via Kat’s new dagger mechanic. So, the Sinister Blade hits a mid-game slump: though daggers keep gaining damage with level and she gets better dagger access via lower Preparation and Shunpo cooldowns, Kat’s unable to prioritize damage itself in her skill-ups once she’s maxed Bouncing Blade.
+
+In most reasonable matches, Kat hits this wall before her ability power scaling takes off, making it hard to keep pace with enemies. We’re giving her a little help while she fills out her inventory.
+Passive - Voracity
+WTF NUMBERS Daggers deal slightly more damage at all levels, scaling faster early but more slowly later (damage at levels 1 and 18 are roughly unchanged). The damage difference peaks at level 10 (+10 damage).
+DAGGER DAMAGE (LEVELS 1 - 6) 75/78/83/88/95/103 ⇒ 75/80/87/94/102/111
+DAGGER DAMAGE (LEVELS 7 - 12) 112/122/133/145/159/173 ⇒ 120/131/143/155/168/183
+DAGGER DAMAGE (LEVELS 13 - 18) 189/206/224/243/264/285 ⇒ 198/214/231/248/267/287
+Bugfixes
+Katarina’s R - Death Lotus icon no longer lights up while dead when enemies walk near her corpse
+If Katarina catches a W - Preparation dagger at the end of E - Shunpo’s cast time, the Preparation dagger’s damage no longer follows her to Shunpo’s location
+If Katarina E - Shunpo’s to an ally or a dagger, Shunpo’s damage now properly transfers to the nearest minion or jungle monster if no enemy champions are in range
+
+Kog'Maw
+W deals more on-hit damage. E damage and ability power ratio reduced.
+
+Kog’s been on the road to recovery since his un-update a few patches back. His marksman build’s been steadily climbing thanks in part to a bunch of indirect buffs (ex. Blade of the Ruined King/Guinsoo’s Rageblade last patch), and his mage build bounced back a bit too well after our first wave of follow-up in 6.21. A few light touches should get both flavors of the void puppy to a stable spot. For marksman Kog, that’s adding a small bit of oomph to his people-melting button; for mage Kog, that’s pulling some excess waveclear out of his lane phase to keep him on his toes.
+W - Bio-Arcane Barrage
+ON-HIT DAMAGE 2/3/4/5/6% maximum health ⇒ 3/4/5/6/7% maximum health
+E - Void Ooze
+DAMAGE 60/110/160/210/260 ⇒ 60/105/150/195/240
+RATIO 0.7 ability power ⇒ 0.5 ability power
+
+LeBlanc
+Health regen down. Q damage up, but damage against minions down. E damage down.
+
+Given that LeBlanc’s pre-season changes spread her (previously instant) damage out over a brief window, it’s not surprising that players have been exploring her other strengths. Two patches out, it’s safe to say LeBlanc’s shifted farther away from her assassin roots than we intended. We’re siphoning some power back into her traditional bursty playstyle while tapping down a few unexpected strengths.
+Base Stats
+HEALTH REGEN 8.5 ⇒ 7.4
+HEALTH REGEN GROWTH STAT 0.8 ⇒ 0.55
+Q - Shatter Orb
+DAMAGE 55/80/105/130/155 ⇒ 55/90/125/160/195
+BOUNCE DAMAGE VS MINIONS 120% ⇒ 80%
+TOOLTIP FIX Shatter Orb’s tooltip now reflects the correct bounce damage against minions
+BUGFIX Shatter Orb bounces no longer count as single-target spells for Spell Vamp
+E - Ethereal Chains
+DAMAGE 40/65/90/115/140 ⇒ 40/60/80/100/120
+
+Master Yi
+Alpha Strike better follows enemies that Flash away after being tagged.
+
+This is a lot of text that says if Master Yi’s primary target Flashes away the moment before he reappears, Yi will follow them rather than awkwardly popping out at the spot the target just Flashed away from. 
+
+Also, a bugfix we will decline to comment on.
+Passive - Double Strike
+STOP HITTING YOURSELF Fixed a bug where Guinsoo’s Rageblade dealt damage to Master Yi on Double Strike’s second hit
+Q - Alpha Strike
+CAN’T ESCAPE Alpha Strike now determines Master Yi’s ending position when damage is dealt, rather than 0.05 seconds beforehand. In other words, Master Yi more reliably ends up next to his target if the target Flashes at the end of Alpha Strike. (Alpha Strike duration unchanged)
+
+Nidalee
++5.12 AD
+
+Whereas last season’s Nidalee was a machine of efficiency in the jungle, she’s now struggling to complete her clears with enough strength remaining to make an impact on the game. We haven’t forgotten the balance challenges Nidalee presented in 2016, but it’s plain to see she’s now having the opposite balance problem, regardless of lingering gameplay issues. With many of her problematic mechanics removed (namely, most of her attack resets), a straightforward attack damage buff should put her head back above water as pre-season monitoring continues, without choking out the rest of the jungle roster.
+Base Stats
+ATTACK DAMAGE 47.88 ⇒ 53
+
+Rengar
+Overall Bonetooth Necklace bonuses reduced. Attack damage per level increased.
+
+While his rework toned down his upfront damage, new Rengar was getting enough attack damage from Bonetooth Necklace to retain the frustration old Rengar wrought. We’re dialing back his scaling to make sure squishy champions get a response to respond to knifecat before he claws their faces off. While we were investigating his Bonetooth damage, we found a bug: it was scaling off of total, not bonus attack damage. We’re fixing that, and compensating via base attack damage scaling to avoid a double-nerf.
+Base Stats
+ATTACK DAMAGE GROWTH STAT 1.0 ⇒ 1.5
+Bonetooth Necklace
+FLAT BONUS 1/3/6/10/15 attack damage ⇒ 1/3/7/13/20 attack damage
+PERCENT BONUS +2/6/12/20/30% bonus attack damage ⇒ +1/3/7/13/20% bonus attack damage
+BUGFIX Fixed a bug where Bonetooth Necklace was granting % total attack damage instead of % bonus attack damage
+
+Shaco
+Buff-fixes for Backstab.
+
+Cleaning up a few quirks where Backstab wasn’t doing what you’d expect it to.
+Passive - Backstab
+BETTER CRIT’ING If the attack that procs Backstab would critically strike normally, it now deals normal crit damage rather than Backstab’s reduced crit damage
+THUNDERSTAB Fixed a bug where Backstab wasn’t stacking Thunderlord’s Decree
+
+Shyvana
+Passive can now be stacked on Howling Abyss and Twisted Treeline
+
+Following up on last patch’s ability update, we’re giving Shyvana ways to earn Fury of the Dragonborn stacks on maps that don’t have elemental drakes.
+Passive - Fury of the Dragonborn
+HOWLING ABYSS Shyvana gains 5 armor and magic resist for each turret her team destroys
+TWISTED TREELINE Shyvana deals 10% increased damage against Vilemaw and gains 5 armor and magic resist for each Vilemaw kill her team earns
+
+Twitch
+Passive damage decreased. W mana cost increased.
+
+Like other hypercarries, Twitch’s natural enemy is the lane bully marksman (Lucian, Draven, MF). With pre-season’s shift from flat armor penetration to lethality, those lane bullies have lost a lot of early strength. Combined with the strength Twitch himself gained from the stealth update, the Plague Rat’s quickly risen to the top of bot-lane’s food chain. We’re trimming some of his early power so enemies once again have a chance to stall out his late-game scaling.
+Passive - Deadly Venom
+TRUE DAMAGE PER STACK 2/3/4/5/6 ⇒ 1/2/3/4/5
+W - Venom Cask
+COST 50 mana ⇒ 70 mana
+
+Varus
+Passive now scales with bonus attack speed and its duration is the same regardless of proc type.
+
+When Varus has been successful in the past, it’s been by building raw attack damage and armor penetration items, rather than marksman crit builds. We want to support Varus as both a caster and a traditional marksman, so we’re making the basic-attack scaling on his passive more appropriate in the late game.
+Passive - Living Vengeance
+NEWBONUS ATTACK SPEED RATIO +50% bonus attack speed on champion kill/assist (halved for minion/monster kills)
+DURATION 6 seconds for champion proc, 3 seconds for minion/monster proc ⇒ 5 seconds in both cases
+
+Vayne
+Q damage down at later ranks.
+
+When we last visited Vayne, we buffed Tumble’s scaling to compensate for the strength of lane bullies. The net result of that change: Vayne (a late-game hypercarry) now has a powerful mid-game spike once Tumble is maxed and she completes her Infinity Edge + Statikk Shiv combo. With mid-game dueling mastery, Vayne no longer has to wait to scale before she becomes a dominant threat. We’re reverting Tumble’s previous buff to get her back to her late-game-focused ways.
+Q - Tumble
+BONUS DAMAGE 0.3/0.4/0.5/0.6/0.7 total attack damage ⇒ 0.3/0.35/0.4/0.45/0.5 total attack damage
+Back to top
+Items
+
+Rylai's Crystal Scepter
+Single target and area-effect spells no longer cause a stronger slow. Cost and stats decreased.
+
+Rylai’s has become a go-to item for AP bruisers utility mages AP assassins every mage. There’s nothing wrong with popular items, but when that item gives survivability and utility, it artificially decreases class variance, making characters more similar in their capabilities. We want Rylai’s to be purchased for its repeatable slow, not because it’s an optimal stat-stick. While that means toning its health and AP down to make it less generically appealing to mages, we also want the slow to be less attractive to mages who can’t reapply it consistently. We know this shift affects some champions more heavily than others, but we’d rather help those champs become less reliant on Rylai’s with future changes than tiptoe around the problems with Rylai’s itself.
+BUILD PATH Needlessly Large Rod + Amplifying Tome + Giant's Belt + 515 gold ⇒ Blasting Wand + Amplifying Tome + Ruby Crystal + 915 gold
+TOTAL COST 3200 gold ⇒ 2600 gold
+HEALTH 400 ⇒ 300
+ABILITY POWER 100 ⇒ 75
+SLOW 20% for 1 second in all cases
+
+Haunting Guise
+It’s cheaper.
+
+Liandry’s Torment is a natural pairing for Rylai’s Crystal Scepter, and many of its purchasers care primarily about that two-item power spike. Combined with the changes to Rylai’s, we are less concerned with RyLiandry’s being abused by non-core users, and thus can afford to let those core users hit their spike earlier.
+BUILD PATH Amplifying Tome + Ruby Crystal + 765 gold ⇒ Amplifying Tome + Ruby Crystal + 665 gold
+TOTAL COST 1600 gold ⇒ 1500 gold
+Liandry's Torment
+TOTAL COST 3200 gold ⇒ 3100 gold
+Back to top
+Summoner’s Rift
+Living Jungle
+Plants generally behave like wards, with a few intentional exceptions.
+
+In general, while activating plants uses the basic attack animations, plants shouldn’t trigger combat interactions. In other words, activating plants should feel similar to attacking wards: a tactical action that happens to be done with a basic attack. Two notable exceptions: it feels really bad to have to chase down a Draven axe or Poppy shield after triggering Blast Cone, so we’re cleaning up those interactions.
+PLANTS AREN’T PEOPLE Champion passives which proc on basic attack (ex. Caitlyn’s Passive - Headhunter, Nocturne’s Passive - Umbra Blades) are no longer consumed when attacking a plant (similar to attacking turrets or wards)
+DRAAAAAVEN Draven’s Q - Spinning Axe no longer bounces off plants. Instead, the duration is refreshed (similar to attacking turrets)
+NOT LIKE THIS Poppy’s Passive - Iron Ambassador now bounces back to her when attacking a plant (similar to killing a unit)
+Red & Blue Buffs
+Duration increased. Red buff’s on-hit tick and Blue buff’s ability power scaling removed.
+
+During the mid-season update, we compressed the power of Red and Blue buff into stronger, shorter versions, with the hope that contesting them could feel like a more valuable objective. However, the power-ups have made fights with the buffs in play too volatile - buffs are accelerating the damage pacing of their wielders more than they should. We’re reverting the mid-season changes to bring these buffs back to useful - but not overwhelming - levels.
+Red Buff
+DURATION 120 seconds on first buff, 90 seconds thereafter ⇒ 120 seconds on all buffs
+REMOVEDON-HIT TICK Basic attacks no longer deal a tick of Red Buff’s damage on-hit (but still apply and refresh the effect)
+Blue Buff
+DURATION 120 seconds on first buff, 90 seconds thereafter ⇒ 120 seconds on all buffs
+REMOVEDABILITY POWER No longer grants +15% ability power
+Red Brambleback
+Red Brambleback has less magic resist.
+
+Red Brambleback is too punishing for magic damage junglers to fight. While we want both buff camps to feel distinct, we don’t want one taking quite so much more health and mana to clear than the other.
+BASE MAGIC RESIST 26 ⇒ 20
+Krugs
+Ancient Krug grants less experience on first kill.
+
+There are general expectations about when junglers can hit level 3, and laners rely on those expectations to predict ganks. Some junglers can violate those expectations based on the nuances of their kits, but Krugs were giving enough experience to allow every jungler to hit level 3 on their second camp. We’re slimming the experience gains for killing the initial Krug spawn to create a better sense of consistency about when junglers can or can’t access level 3 ganks.
+EXPERIENCE Ancient Krug now grants 125 ⇒ 62.5 experience on first kill
+Back to top
+Masteries
+
+Courage of the Colossus
+Cooldown up at early levels. Shield bonus per nearby enemy down.
+
+Courage of the Colossus is doing its job: helping champions who get in the thick of things and lay down crowd control to survive better once they’re in there. Unfortunately, it’s doing that too well. On top of that, while it should have some value in lane, it’s a bit too hard to pick a smart trade against such a fat shield every wave.
+COOLDOWN 30 seconds ⇒ 45 - 30 seconds (at levels 1-18)
+SHIELD PER NEARBY ENEMY 7% ⇒ 5% (25% maximum)
+
+Fervor of Battle
+Stacks last longer. Fewer stacks required.
+
+We like Fervor’s playstyle: the longer you keep attacking, the stronger you get. Some of our pre-season changes have put that promise a bit too far out of reach: stacking takes longer and it’s harder to keep stacks up. We’re going back on a few changes to restore some of Fervor’s lost reliability.
+STACK DURATION 4 seconds ⇒ 6 seconds
+MAX STACKS 10 ⇒ 8
+ATTACK DAMAGE PER STACK 1-6 (at levels 1-18) ⇒ 1-8 (at levels 1-18)
+MAX ATTACK DAMAGE 10-60 ⇒ 8-64

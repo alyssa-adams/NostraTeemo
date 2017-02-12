@@ -1,0 +1,121 @@
+Champions
+
+Camille
+Q empowered damage down. W slow and E stun decreased. E attack speed only granted if a champion is hit.
+
+If you’ve been following along with Camille’s trips to the patch notes, you may have noticed a theme: Camille does many things too well. When any champion jumps on you, you’ve got a choice: run, or fight back. However, Camille’s lockdown means you don’t get to run until it’s too late, while her high damage makes it difficult to successfully fight back. We’re slicing the Steel Shadow from both ends, improving her opponent’s odds whichever route they choose.
+Q - Precision Protocol
+EMPOWERED CAST BONUS DAMAGE 100% ⇒ 80%
+W - Tactical Sweep
+OUTER SWEEP SLOW DECAY Now decays fully to 0% over the duration
+SLOW 90% ⇒ 80%
+E - Hookshot
+COST 50 mana ⇒ 70 mana
+STUN DURATION 1 second ⇒ 0.75 seconds
+NEWATTACK SPEED Now only granted if Camille hits an enemy champion
+R - The Hextech Ultimatum
+AFTER DEATH DURATION No longer persists for its full remaining duration after Camille dies. Now dissipates within 1 second after Camille dies.
+
+Ivern
+Daisy no longer regenerates her health and is also less tanky.
+
+Though Daisy’s disruption is certainly invaluable, her rapid regeneration means that if she survives a fight (or if Ivern takes her out of the action) she’ll be healthy to safeguard an objective push soon after. When opponents put the effort into bringing Daisy down, we want them to be rewarded with damage that actually sticks, rather than see any effort short of a kill become literally meaningless. We’re pushing up Daisy’s vulnerability so that ‘barely surviving’ a skirmish doesn’t just win her the next one.
+R - Daisy!
+REMOVEDHEALTH REGENERATION Daisy no longer regenerates 3% maximum health per second while out of combat
+ARMOR AND MAGIC RESIST 20/60/120 ⇒ 15/40/90
+ALL WORK AND NO PLAY Daisy will no longer start attacking the ground and teleporting out of control
+INVISIBLE DAISIES Daisy will no longer become invisible in rare circumstances
+
+Jayce
+Hammer Q and R damage down. Hammer E mana cost up.
+
+Jayce’s two forms give him more tools than most champs, and he’s meant to succeed when he uses them all in concert. Right now, however, hammer form is pulling too much weight all on its own. Its raw damage means Jayce tends to win the fights he starts, and its cheap disengage means he can politely decline any fights that find him. Hitting damage offsets last patch’s Lethality buffs by restoring some early-level breathing room for opponents, while upping E’s mana cost means Jayce only has so many “E”-ject buttons before he runs out of resources.
+Q - To the Skies!
+DAMAGE 40/80/120/160/200/240 ⇒ 35/70/105/140/175/210
+E - Thundering Blow
+COST 40 mana ⇒ 55 mana
+R - Mercury Hammer
+HAMMER STANCE BONUS DAMAGE RATIO 0.4 bonus attack damage ⇒ 0.25 bonus attack damage
+
+Kha'Zix
+Q ratio down. Evolved Q cooldown refund on Isolated targets down.
+
+While the Assassin update delivered on giving Kha’Zix more flexibility in his evolutions, it’s clear we may have gone too far. Kha’Zix is a champion about burst damage, but Evolved Claws introduces enough sustained damage into his fights that he’s tasting the best of both worlds. Kha’Zix should still be favored in Isolated situations overall, but cutting down Taste Their Fear’s aggressive scaling should give classic duelists (like Elise or Lee Sin) the upper hand when striking first.
+Q - Taste Their Fear
+RATIO 1.4 bonus attack damage ⇒ 1.2 bonus attack damage
+EVOLVED CLAWS COOLDOWN REFUND 60% on isolated targets ⇒ 45% on isolated targets
+
+LeBlanc
+Passive damage reduced at early levels.
+
+If you've played League over the last couple of months, you likely noticed that LeBlanc is pretty strong at the moment. Part of that comes from her passive's scaling in the early game: the Deceiver clears waves and out-lanes opponents with impunity, meaning she comes into her mid-game spike far ahead of the curve. We’re reining in her early-game burst to give opponents a window where they can actually win a fight.
+Passive - Sigil of Malice
+DAMAGE (LV 1-6) 40/55/70/85/100/115 ⇒ 30/40/50/60/70/80
+DAMAGE (LV 7-13) 130/155/170/180/190/200/210 ⇒ 90/100/120/140/160/180/200
+DAMAGE (LV 14-18) 220/240/260/280/300 (unchanged)
+
+Malzahar
+Voidlings are slower if they stray from Malzahar and have a small delay before spawning. W has a cooldown between casts.
+
+Malzahar’s the latest mage to migrate down to bot lane, but that shift in position has been accompanied with a problematic shift in playstyle as well. As it turns out, the needs of controlling a solo lane act as a limiter on the more frustrating parts of Malzahar’s kit. So, when put in an environment where he doesn’t need to manage minions or fight a solo laner, Malz is free to focus on being really annoying instead. (We mean voidlings.)
+
+The first issue is support Malz’s unimpeded use of Voidlings as bodyblockers, shutting down skillshot champs too reliably. The reflex check is exciting in theory, but while mid Malz might give up lane pressure to use W creatively, support Malz doesn’t make the same sacrifice. The second issue is how effectively Voidlings chase melee champs out of lane. Melees can’t fight or run from Voidlings without taking heavy damage; this becomes far more painful in botlane (and toplane, for you theorycrafters) where the trip back to your turret is significantly longer.
+
+We're taking steps to reduce the aggravation that Malzahar Voidlings are causing away from their home lane. Malz players who plan ahead will still be able to make some sick space-crab plays, but Void Swarms of opportunity will be easier to deal with.
+W - Void Swarm
+VOIDLING SPAWN TIME On-cast ⇒ 0.35 seconds after cast (matching the animation)
+NEWCOOLDOWN BETWEEN CASTS 1 second
+NEWWAIT FOR ME Past 600 distance, Voidlings move 10% more slowly for every 100 additional distance farther they are from Malzahar
+
+Rengar
+Q dash distance down. Empowered W no longer gives CC immunity after cleansing. R duration down.
+
+Rengar’s ability to get in and out of any skirmish is predicated on precise use of his wide array of tools. However, the stab-tabby’s defensive mechanics provide too much of a safety net, clinching him a clean getaway out of even the sloppiest of engages. Specifically, it’s Empowered Battle Roar’s cleanse and follow-up immunity coupled with the Pridestalker’s high damage that make the counterplay of ‘group up and peel Rengar’ feel unrealistic once he gets rolling. Similarly, Thrill of the Hunt’s duration is long enough that instead of needing to predict a fight (or commit to starting one at all), Rengar can just chill in the shadows, scaring the enemy team into inaction for long stretches until one of them wanders an inch too far. We’re tightening the leash on Knifecat’s ability to dine-and-dash large groups while keeping his efficacy at solo missions largely intact.
+
+Also, using Savagery’s dash (which was just supposed to make up for Q’s cast time) as generic movement speed both contributes to his overall mobility and looks really dumb, so we’re lowering the range to make it distance-neutral. If you’re really attached to spamming buttons to try and look cool, just play Riven.
+Q - Savagery
+DASH DISTANCE 200 ⇒ 150
+W - Battle Roar
+REMOVEDBATTLE MEOW Empowered cast no longer gives crowd control immunity for 1.5 seconds
+R - Thrill of the Hunt
+CAMOUFLAGE DURATION 14/22/30 seconds ⇒ 12/16/20 seconds
+
+Tristana
+Q lasts longer.
+
+Tristana's lower-than-average base stats means she's almost entirely reliant on her cooldowns to fight in lane (despite being a basic-attack-oriented champion). When her spells are up she's ready to scrap, but she feels particularly weak when they're not. We're increasing the uptime on Tristana’s main steroid, allowing her to keep rapidly firing while Goomba-stomping opponents in extended fights.
+Q - Rapid Fire
+DURATION 5 seconds ⇒ 7 seconds
+
+Vi
+Movement speed and base attack speed reduced.
+
+2017’s jungle has proven pretty favorable for Vi, even with one or her stronger keystones being nerfed. As such, we’re taking this opportunity to go under the hood and retune her base stats to be more in line with others in her weight class. For a champion with a two-charge attack reset and two gap-closers, her base movement and attack speeds were a touch out of line. The only thing that should be excessive about Vi is her force.
+Base Stats
+MOVEMENT SPEED 345 ⇒ 340
+BASE ATTACK SPEED 0.644 ⇒ 0.625
+
+Vladimir
+Basic attacks are stronger and faster. Q deals more baseline damage; Crimson Rush bonus reduced to compensate.
+
+Though Vladimir has a point-and-click button as his main ability, his kit’s got some finnicky timing requirements that actually make him one of League’s most difficult-to-learn champions. The path to mastery should always be rewarding, but Vlad’s a completely different champion depending on which end of the MMR spectrum you’re looking at. That volatility means Vlad settles into “balance” for just one set of players at a time - when he’s fair at lower skill levels he dominates pro play, but if he’s brought in line for League’s higher tiers, the majority of the playerbase has little hope of winning.
+
+These changes are meant to introduce some level of consistency across the various flavors of Vlad. Improving his basic attack helps players who struggle to last-hit without meaningfully buffing veterans who have their farm game on lock. Additionally, shrinking the difference between basic Transfusion and its Crimson Rush version means Vlad players can still do well even if they haven’t mastered their Q timing yet. Narrowing these skill gaps puts us in a better position to balance around a ‘baseline’ Vladimir going forward, rather than having to choose which half of the playerbase gets the short end of the stick.
+Base Stats
+BASE ATTACK DAMAGE 52 ⇒ 55
+BASIC ATTACK MISSILE SPEED 1400 ⇒ 1600
+Q - Transfusion
+RATIO 0.55 ability power ⇒ 0.6 ability power
+DAMAGE 75/90/105/120/135 ⇒ 80/100/120/140/160
+CRIMSON RUSH BONUS DAMAGE 100% ⇒ 85%
+
+Zyra
+Plants don’t auto-target champions on spawn if a closer enemy target exists. Q costs more mana.
+
+When Zyra does plant things at you, her abilities are only half the story - she's also sprouting a garden of Thornspitters and Vine Lashers. Once you've dodged (...or not) a spellcast, you've got a choice to make: stick around to take her plants out, or back off until they've despawned. That choice is heavily weighted toward running away, thanks to an aggressive AI pattern that told Zyra’s plants to always target nearby champions on-spawn, regardless of whether Zyra landed the ability that spawned ‘em.
+
+While frustrating to deal with for any champ, this makes life downright awful for melee folks who can’t whack Zyra’s weeds without staying in range. Though Zyra's built to thrive against close-range picks like Braum or Leona, her margin for error’s so high that it’s impossible for almost any melee to find an opportunity to cut through. That margin’s what we’re targeting this patch. Zyra will still carry the “anti-melee” crown when she lands her spells, but opponents that bob and weave past Deadly Spines and Grasping Roots will find footing to retaliate.
+General
+PLANT STUFF Removed a rule that told Thornspitters and Vine Lashers to always target nearby enemy champions on-spawn instead of the closest enemy unit, even if the ability that spawned them didn’t hit a champion
+Q - Deadly Spines
+COST 60 mana ⇒ 70 mana

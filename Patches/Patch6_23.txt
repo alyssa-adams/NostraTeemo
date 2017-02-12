@@ -1,0 +1,173 @@
+Elementalist Lux
+Master the elements with the Elementalist Lux Ultimate skin, arriving on Summoner’s Rift in patch 6.23. The multi-faceted mage will be available for 3250 RP and comes with a set of five new icons. Additional editions will be available at launch, so stay tuned!
+
+Champions
+
+Shyvana
+Dragon’s Descent can’t be interrupted. E is now an exploding fireball in Dragon Form. Passive resistances down.
+
+Shyvana’s one of League’s first opportunistic updates, where a smaller amount of work (compared to big updates) can still yield big improvements. Shyvana’s already a pretty cool champion - we wanted to make her better. We wrote a nifty article about Shyvana’s changes - this context is a simplified summary of it, so if you’ve still got questions, click that link! 
+
+Shyvana’s unique strength is that she periodically gets to ignore one of the juggernaut class’s core weaknesses: reliably getting to their targets. Ignoring weaknesses doesn’t help when you’re too behind to flex your strengths, which is why Shyvana has such a hard time clawing her way back from a disadvantage. Broadly speaking, we aimed to give Shyvana more flexibility and help her make better use of juggernaut items. In Dragon Form, Flame Breath’s been redesigned away from a basic damage cone toward something she has more options around using. Dragon Form now gives health instead of resistances, letting her leverage health-scaling items like Titanic Hydra and Sterak’s Gage. 
+
+In exchange, we shaved off some mechanics she should still be able to function without. Burnout’s flame trail in Dragon Form asked Shyvana to stay in front of enemies she otherwise wanted in front of her, so we nixed it. We also had to shrink Dragonborn’s resistances based on playtest results, though rather than pure nerfs, we added in a way for her to gain back some resistances if she and her team play the objective game well.
+Passive - Fury of the Dragonborn
+BONUS ARMOR & MAGIC RESIST 5/10/15/20 (at levels 1/6/11/16) ⇒ 5 at all levels
+NEWDRAGON-HATING DRAGON Shyvana deals 10% more damage to elemental drakes (including Elder Dragon)
+REMOVEDDRAGON SCALES Fury of the Dragonborn's bonuses no longer double during Dragon Form
+NEWOTHER DRAGONS' SCALES For each elemental drake Shyvana or her allies defeat, she gains an extra 5 armor and magic resist
+W - Burnout
+REMOVEDFLAME TRAIL No longer leaves a flame trail behind Shyvana while in Dragon Form
+NEWSIZE IN DRAGON FORM 325 (same as Human form) ⇒ 350/365/380 at rank 1/2/3 of Dragon's Descent
+UPDATEDE - Flame Breath
+LAW OF CONSERVATION OF ENERGY Now stops on the first champion hit (in both Human and Dragon form)
+RATIO 0.6 ability power ⇒ 0.3 ability power
+MISSILE SPEED 1700 ⇒ 1575
+NEWTHE POWER OF CHOICE While in Dragon Form, Shyvana can target Flame Breath anywhere within its max range
+NEWDRAGON FORM EXPLOSION While in Dragon Form, Flame Breath explodes when it hits a champion or reaches its target location, leaving behind a flame zone
+NEWDRAGON FORM EXPLOSION DAMAGE 100~200 (at levels 1-18) (+0.3 ability power) magic damage, stacking with Flame Breath's normal damage on all targets hit (not just the first!)
+FLAME ZONE DURATION 4 seconds
+FLAME ZONE SIZE 220/240/260 (at ranks 1/2/3 of Dragon's Descent)
+FLAME ZONE DAMAGE 60~120 (at levels 1-18) (+0.2 ability power) magic damage per second
+DON'T STAND IN FIRE Enemies that remain in the flame zone are persistently marked for Flame Breath's bonus on-hit damage
+R - Dragon's Descent
+NEWUNSTOPPABLE Shyvana can no longer be knocked out of Dragon's Descent's dash
+MAX RANGE 950 ⇒ 850
+DAMAGE 175/300/425 ⇒ 150/250/350
+NEWBONUS HEALTH 150/250/350
+DRAGON FORM ATTACK RANGE 175 ⇒ 175/190/205 at ranks 1/2/3
+NEWBIGGER DRAGON Dragon Form is 8/16% larger at ranks 2/3
+
+Akali
+Passive AP ratios up. W cost down. E ratios up.
+
+Akali’s update was focused around shifting her damage pattern into repeated, telegraphed spikes. We’re happy with how that pattern’s shaken out, but after a little time in the wild it’s clear that those ‘spikes’ of damage aren’t as sharp as they need to be. For Akali to do her job she’s gotta have the potential for lethal damage, so we’re administering a booster-shot to her scalings to keep her damage threatening.
+Passive - Twin Disciplines
+HEAL RATIO 0.6 bonus attack damage + 0.3 ability power ⇒ 0.6 bonus attack damage + 0.45 ability power
+DAMAGE RATIO 0.5 bonus attack damage + 0.5 ability power ⇒ 0.5 bonus attack damage + 0.65 ability power
+BUGFIX Fixed a bug where damage from Twin Disciplines and Mark of the Assassin would not count towards Thunderlord’s Decree
+W - Twilight Shroud
+COST 80/75/70/65/60 energy ⇒ 60/55/50/45/40 energy
+E - Crescent Slash
+RATIO 0.7 bonus attack damage + 0.5 ability power ⇒ 0.8 bonus attack damage + 0.6 ability power
+
+Anivia
+W cooldown lowered. E no longer deals increased damage against targets in R until the storm is fully formed. R forms faster.
+
+Anivia’s R-E combo has been a staple of her play for years, but the instant, unavoidable burst and lane pressure it provides overshadows the success Anivia sees from trapping foes in Glacial Storm with well-placed walls and Q stuns. That said, burst damage does seem like a fair reward when Anivia makes use of all the tools available to her. We’re helping her earn her damage payoffs by hastening Glacial Storm’s “cook” time and letting her drop more walls, but giving her less instant gratification.
+W - Crystallize
+COOLDOWN 25 seconds at all ranks ⇒ 17 seconds at all ranks
+E - Frostbite
+COOLDOWN 5 seconds at all ranks ⇒ 4 seconds at all ranks
+CHILLED BONUS Deals 200% damage to targets recently hit by Q - Flash Frost or R - Glacial Storm ⇒ a fully-formed R - Glacial Storm
+R - Glacial Storm
+TIME TO FULLY FORM 3 seconds ⇒ 1.5 seconds
+DAMAGE PER SECOND 80/120/160 ⇒ 40/60/80
+RATIO 0.25 ability power ⇒ 0.125 ability power
+EMPOWERED DAMAGE Empowered storms deal 150% ⇒ 300% damage (same damage as live)
+
+Evelynn
+This was getting a little obnoxious.
+
+Passive - Shadow Walk
+REMOVEDSHADOW SCREEN No longer displays a grey tint on Evelynn’s screen while camouflaged
+
+Katarina
+Stop walking away from your target, Katarina.
+E - Shunpo
+SILKY SMOOTH Movement commands are canceled if Shunpo targets a plant or enemy champion
+
+Lux
+Concerns around color-blind readability prompted us to look into Final Spark’s indicator, and we realized it could stand to be easier to read in general.
+R - Final Spark
+CLARITY Final Spark’s cast indicator line has been widened to be easier to read
+
+Malzahar
+Voidlings deal more damage but don’t multiply as frequently. Malzahar can now store 2 charges of Void Swarm.
+
+Love him or hate him, Malzahar’s damage output can be downright confusing. When standing against his Void Swarm, the lack of clarity surrounding how the voidlings operate (and what you should do to fight them) can be more than a little overwhelming. In light of this, we’re adjusting how the mechanic functions to keep things understandable. With a heavier focus on chaining Malefic Visions for voidling success, Malzahar will have to set up minion waves to keep his swarm going - but opponents will have a far easier time stemming the tide by simply killing them.
+W - Void Swarm
+COST 80 mana ⇒ 40 mana
+NEWCHARGES Now stores up to 2 charges
+NEWVOIDLING HEALTH Voidlings now have three health and take damage similarly to Zyra's plants. Champion basic attacks and spells deal 1 damage (0.25 damage per tick of damage over time effects).
+VOIDLING PHYSICAL DAMAGE 30/32.5/35/37.5/40% total attack damage ⇒ 30/35/40/45/50 (+0.4 bonus attack damage)
+VOIDLING MAGIC DAMAGE RATIO 0.1 ability power ⇒ 0.2 ability power
+SWARMING Voidlings can spawn other Voidlings within 8 seconds ⇒ 3 seconds of W cast
+REMOVEDBURST FROM THEIR CHEST Voidlings no longer spawn other Voidlings by killing minions
+NEWBLOOD IN THE WATER Voidlings deal 300% damage to minions affected by Malefic Visions
+REMOVEDMINION HATE Voidlings no longer execute low-health enemy minions
+REMOVEDMOB MENTALITY Voidlings no longer gain 50% attack speed when three or more are active
+NEWSLACKERS Voidlings now only gain bonus movement speed toward priority targets if they’re within 600 units of Malzahar
+
+Orianna
+We’re reverting a bug we introduced that allowed Orianna to chain her abilities in a way that was too hard to react to. While this is a power-down for Orianna’s maximum overall potential, she’s powerful enough that we’re not looking to compensate right now. (It also helps avoid confusing Orianna players!)
+W - Command: Dissonance
+BUGFIX When cast during the travel time of Q - Command: Attack, Command: Dissonance now waits to fire until the ball reaches its destination
+
+Rengar
+Sorry, kitty.
+Bonetooth Necklace
+BUGFIX Fixed a bug causing Bonetooth Necklace to stop working if Rengar was revived through Guardian Angel or Zilean’s R - Chronoshift
+
+Shen
+Armor and health growth increased.
+
+Shen brings a lot of unique tools that other tanks lack (global teleport, anybody?) but at the moment his base stats are pretty low for the job. His dueling power spikes pretty hard at level 9, thanks to the power of Twilight Assault, but we want to make sure he scales past that into the late game as well.
+General
+ARMOR GROWTH STAT 2.6 ⇒ 3.0
+HEALTH GROWTH STAT 73 ⇒ 85
+
+Yorick
+We originally changed Dark Procession’s cast behavior in 6.20 to give Yorick players snappier, more reactive W casts. We knew accuracy would take a small hit, but that tradeoff ended up more problematic than expected. So, we’re reverting the change.
+W - Dark Procession
+REVERT Yorick once again walks into range to cast Dark Procession, rather than casting it at max range in the target direction
+Back to top
+Items
+
+Blade of the Ruined King
+On-hit damage increased.
+
+Blade of the Ruined King has been out of the spotlight for a while, even for champions we expect should like it. Blade of the Ruined King should be the go-to item for basic-attacking champions who want dueling power out of their first item. To accomplish that, it should be doing a bit more at the start of fights.
+ON HIT DAMAGE 6% of the target’s current health ⇒ 8% of the target’s current health
+
+Guinsoo's Rageblade
+No longer loses attack speed on combine.
+
+Technically speaking, Rageblade still counts as an attack speed item because of its stacking buff. That said, the loss of the flat value feels like (and often is) a step backward, given that attack speed is necessary to stack Rageblade quickly. As a result, it only feels good to purchase Guinsoo’s if you can supplement it with other attack speed items. We want the Rageblade to feel unconditionally better when you complete it, even if you don’t have other attack speed items.
+NEW? ATTACK SPEED 0% ⇒ 25%
+
+Sterak's Gage
+Sterak’s Gage serves acceptably as a defensive item for fighters who want to start a fight and live to finish it. It’s a smidge weak for its price tag, though, so we’re making it a little easier to pick up.
+COMBINE COST 1150 gold ⇒ 1050 gold
+TOTAL COST 2700 gold ⇒ 2600 gold
+
+Lord Van Damm's Pillager
+Reminder: Lord Van Damm’s Pillager only exists on Twisted Treeline! 
+
+Like Mejai’s Soulstealer, Pillager is meant to be a risky purchase that doesn’t always pan out. Unlike Mejai’s, Pillager is an end-game item that requires a ton of investment to build. Losing control of Treeline’s altars is still a big hit to Pillager’s effectiveness, but its cost is now more appropriate for its baseline strength.
+COMBINE COST 1000 gold ⇒ 700 gold
+TOTAL COST 3300 gold ⇒ 3000 gold
+Back to top
+Summoner’s Rift
+Living Jungle
+One patch later, everyone’s still feeling out how the new plants fit into their matches. We’re waiting until players have time to integrate plants into their understanding of the Rift before making big changes, but in the meantime, have some bugfixes!
+General
+GREEN THUMB Plants are now immune to critical strikes and lifesteal
+Blast Cone
+HORSE PLANT Fixed a bug where Hecarim’s E - Devastating Charge caused Blast Cones to launch him forward instead of backward
+THEY LOOK SMALL UP HERE Fixed a bug where enemies sometimes flickered out of vision when jumping with a Blast Cone
+Honeyfruit
+AGGRESSIVE EATING Fixed a bug where consuming Honeyfruit flagged you as ‘in combat’ for the purpose of various out of combat passives
+I’LL GET THAT TO GO Fixed a bug where dashing or moving very quickly over Honeyfruit would sometimes fail to pick them up
+Scryer’s Bloom
+ANTI-ALLERGY Updated the indicator textures to be less noisy and misleading
+Jungle Experience
+More XP on mini Krugs, less XP on big Raptor.
+
+The time investment we ask of junglers to take the Krugs wasn’t paying off as much as we’d like. As a result, we’re shifting some of the jungle experience from the Raptors to Lesser Krugs. Overall, the amount of experience in the jungle is about the same, but it’s slightly more concentrated in the Krugs.
+General
+BUGFIX Fixed a bug where you wouldn’t get bonus experience from your jungle item when killing a monster that was a higher level than you while leveling up
+Raptors
+CRIMSON RAPTOR EXPERIENCE 65 ⇒ 15
+Krugs
+LESSER KRUG EXPERIENCE 5 ⇒ 15 (Ancient Krug and Krug unchanged)

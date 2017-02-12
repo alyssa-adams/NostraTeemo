@@ -1,0 +1,186 @@
+Mid-Patch Updates
+1/17/2017
+Teemo
+PEEK-A-BOO Fixed a bug causing Passive - Guerrilla Warfare to reactivate instantly after Teemo was revealed, as long as the initial stealth timer completed and Teemo remained in brush
+Champions
+
+Anivia
+R flashes when it finishes expanding. Fixed a bug with R’s expansion time.
+
+Anivia’s changes in 6.23 greatly increased the importance of Glacial Storm’s expansion mechanic. We’re adding a visual cue to signal when the storm’s fully formed.
+R - Glacial Storm
+NEWCLARITY Glacial Storm visually flashes when it becomes fully formed
+BUGFIX Glacial Storm now always takes 1.5 seconds to expand, rather than randomly between 1.5 and 1.75 seconds
+
+Camille
+Health per level down. Passive shield duration down. R stun duration decreased.
+
+Let's face it - Camille is pretty darn strong. As a diver, she needs the mobility to isolate a priority target and the dueling potential to kill them when she does. We think she’s hitting that mark pretty well. However, every champion needs room to fail, and for divers, that means being killable when they dive the backline, and lower on teamfight utility when they play it safer.
+
+Camille needs to give opposing teams a chance to cut her legs out from under her before she cuts them up. With her legs. At the moment, she’s too durable for that to be a reliable response, so we’re dialing that back a bit. Camille’s teamfight utility is providing her too safe of a fallback, meaning she doesn’t need to do that much diving for a diver. With a little less utility, we hope to require Camille to play a bit more aggressively, opening her up to focused fire (which should be easier against the new, less tanky Camille).
+Base Stats
+HEALTH GROWTH STAT 95 ⇒ 85
+Passive - Adaptive Defenses
+SHIELD DURATION 1.5/2.0/2.5 seconds ⇒ 1.5 seconds
+E - Hookshot
+NOT A NINJA Slightly increased radius where Camille will reveal herself if Hookshotting near enemies while she is in FoW
+R - The Hextech Ultimatum
+KNOCKAWAY SPEED 600 ⇒ 1000
+GET UP Knockaway stun now only lasts until the target lands, rather than a 1-second fixed duration
+
+Draven
+Q now has base damage and scales off bonus, not total, attack damage. W mana cost down at higher ranks.
+
+Draven is the cocky showoff for the marksman who wants to beat his opponent into the ground and keep them there through the midgame. Ever since Youmuu’s Ghostblade’s changes, Draven has been struggling to stay ahead when he’s off to a good start. We want to restore that go-hard feeling, so we’re giving Draven some extra power where (when?) his victims will feel it most.
+Q - Spinning Axe
+NEWBASE DAMAGE 30/35/40/45/50
+RATIO 45/55/65/75/85% total attack damage ⇒ 65/75/85/95/105% bonus attack damage
+W - Blood Rush
+COST 40 mana at all ranks ⇒ 40/35/30/25/20 mana
+
+Kalista
+Rend keeps stacking while it’s on cooldown and only requires one unit kill for its mana refund.
+
+Kalista’s a difficult champion to learn - on top of her mechanical requirements (ever hopped into the enemy team by mistake?), her abilities sit on the higher end of the complexity spectrum. The changes here are buffs for any Kalista player, since she’s had a rough pre-season, but are especially meant to ease her learning process by making Rend more straightforward.
+E - Rend
+STACKS ON STACKS Basic attacks and Q - Pierce add a spear to enemies while Rend is off cooldown ⇒ at all times
+MANA REFUND 2 units killed ⇒ 1 unit killed (matching the cooldown refund requirement)
+BUGFIX Fixed an issue where Rend’s cooldown sometimes didn't reset when Rend killed a unit
+
+Karma
+Mantra’d W damage only ticks twice. Mantra’d E shield lowered.
+
+For almost a year, Karma’s enjoyed a slow build-up into becoming the go-to generalist support among League’s top players. This stems from a change made all the way back in 6.6, where we aimed to give her scaling a little more ‘oomph’ so Karma could feel appropriately rewarded for a strong performance. We’re happy with her scaling, but amping up Karma’s base shield in the very same patch led to a massive performance bump that few of her peers could step to. In light of her dominant laning strengths, we’re reverting Karma’s base shield to its previous effectiveness while keeping her growth throughout the game intact.
+
+Quickly addressing the change to Focused Resolve, Karma’s tether actually ticked for damage more often than similar spells. This meant that your natural counterplay (running away) was less effective than it should have been, since Karma would usually get most of the damage before breaking anyways. It’s important to note that while the overall damage of Focused Resolve is staying the same, losing one tick does interfere with her passive’s interaction with Mantra’s cooldown. We still think it’s an appropriate power-down for the Enlightened One paired with the hit to her shield, but we’ll be watching to make sure she doesn’t drop too far as a result.
+W - Focused Resolve
+DAMAGE TICKS Three at 0, 1, and 2 seconds ⇒ Two at 0 and 2 seconds (total damage unchanged)
+CONSISTENCY Also applies to Mantra W - Renewal
+Mantra E - Defiance
+BONUS SHIELD 30/100/170/240 ⇒ 30/90/150/210
+
+Kennen
+Kennen's ultimate damage now weighted towards the end, not the beginning.
+
+Kennen excels at destroying a whole team with area of effect damage when they have no way to escape, and that’s a cool niche for him to fill. Right now, he’s pumping out most of his damage before anybody has even had time to run the other way. We’re weighting his ultimate damage toward its later ticks so that Kennen shines when he manages to keep opponents in the storm even after the stun wears off.
+R - Slicing Maelstrom
+DAMAGE PER BOLT 80/145/210 (+0.4 ability power) ⇒ 40/75/110 (+0.2 ability power)
+SUCCESSIVE STRIKE MODIFIER 100/75/50/50/50/50% damage on strikes 1-6 (per target) ⇒ 100/110/120/130/140/150% damage on strikes 1-6 (per target)
+TOTAL DAMAGE 300/543.75/787.5 (+1.5 ability power) ⇒ 300/562.5/825 (+1.5 ability power)
+
+Lee Sin
+Modernization on E and toning down damage on R.
+
+It doesn’t take an experienced analyst to understand that junglers are a little out of line in 7.1. While we’re seeking to address their strength and gank uptime (more on that below), Lee Sin has unsurprisingly found himself at the top of list when it comes to effectiveness. Lee’s R-Q-Q combo is a death sentence to all but the most durable of champions, and while it’s been around for a while, the Blind Monk wasn’t enough of a problem for us to take action. Now that he’s back on top, we’re taking the opportunity to reduce the strength of the interaction - maintaining Dragon’s Rage as a powerful displacement tool, but cutting its raw effectiveness as a pure finisher.
+E - Tempest
+THE BLIND MONK No longer reveals invisible targets.
+ONLY YOU Now only reveals targets damaged by Tempest (no longer reveals nearby allies of damaged targets)
+R - Dragon's Rage
+DAMAGE 200/400/600 ⇒ 150/300/450
+
+Lucian
+Passive damage up at early levels. Q damage scaling increased.
+
+Like Draven, Lucian has historically had a strong mid-game, out-dueling and out-skirmishing more traditional marksman. However, the Fervor changes and the armor penetration rework have left him feeling pretty underwhelming. We’re raising Lucian’s power earlier in the game so he can hit his mid-game stride (and actually do something with it).
+Passive - Lightslinger
+DAMAGE 30/40/50/60% total attack damage (at levels 1/6/11/16) ⇒ 40/50/60% total attack damage (at levels 1/7/13)
+Q - Piercing Light
+BASE DAMAGE 80/110/140/170/200 ⇒ 80/115/150/185/220
+
+Poppy
+Passive shield duration down. Snapcast ultimate damage halved.
+
+Tanks should excel when locking up multiple targets in a teamfights, not when smashing laners 1-on-1. Poppy has been doing both recently, and that’s not cool. Fighters sacrifice teamfight utility for dueling power, and thus need to be able to slowly win trades against tanks and eventually go for the kill. Poppy tends to win trades against even strong duelists, as she consistently has a shield available, between her passive and Courage of the Colossus. On the other hand, her snapcast ultimate brings enough base damage to create kill pressure of her own, and make it dangerous to go all in. We’re hitting her power in both places to give more champions an opportunity to fight her.
+Passive - Iron Ambassador
+SHIELD DURATION 5 seconds ⇒ 3 seconds
+R - Keeper's Verdict
+SNAPCAST DAMAGE 200/300/400 (+0.9 bonus attack damage) ⇒ 100/150/200 (+0.45 bonus attack damage)
+
+Ryze
+Less shield and movement speed on Q
+
+One of the goals of Ryze’s 2016 update was to diversify his strengths beyond raw offensive threat. Adding defense- and utility-oriented tuning levers meant we’d have the means to balance around his damage, not just the damage itself. That brings us to today. Ryze has retained his historic late-game potential, but he’s not struggling nearly enough to get there. Overload’s shield and speed boost are too effective a safety net, especially early on while Ryze is still scaling up. Making him more vulnerable to unfavorable matchups gives opponents a window to hinder his progression toward late-game carry status, but if Ryze can navigate the added risk, his payoff is the same as it’s always been.
+Q - Overload
+OLD SHIELD 60~200 at levels 1-18 (50 + 10 per level from levels 1-12, + 5 per level from levels 13-18)
+NEW SHIELD 65~150 at levels 1-18 (60 + 5 per level)
+BONUS MOVEMENT SPEED 25/30/35/40/45/50% ⇒ 25/28/31/34/37/40%
+
+Shyvana
+W no longer deals extra damage to monsters.
+
+We’re happy to say Shyvana’s recent ability update has improved the gameplay issues we were targeting, though she’s been somewhat overbearing since then. To bring her back in line, we’re targeting less-interesting strengths that accumulated on her kit over time. In this case, that’s the jungling crutch we added to Burnout a few seasons back.
+W - Burnout
+REMOVEDFOREST FIRES Burnout no longer deals 20% bonus damage to monsters
+
+Syndra
+W damage and ratio down. Passive W bonus changed. R cooldown up at early ranks.
+
+As a burst mage, Syndra should always be able to threaten high-priority targets with lethal damage at the requirement of some optimization and set-up to realize her murderous desires. If you’ve played League of Legends recently, you can probably see that’s not exactly the case these days. This is large part due to the changes that came with Syndra’s mage update last year - namely, the consistency at which she’s able to be effective, not the effectiveness itself.
+
+The largest bump to Syndra’s consistency lies in Force of Will’s ability to grab (and refresh) multiple Dark Spheres. Where Syndra players previously had to carefully time and optimize their spellcasts to get the maximum damage from Unleashed Power, they’re instead getting 7-sphere ults without much effort. Rather than cut the ceiling of Syndra’s damage (what’s a burst mage without burst?), we’re killing Force of Will’s multi-sphere action to restore the skill requirement for huge damage ults. She’ll still be able to hurl massive damage onto a single target when she gets rolling, but Syndra going off is once again a thing teams can stop rather than a foregone conclusion.
+W - Force of Will
+TRANSCENDENT BONUS Grabs up to 3 spheres ⇒ Deals 20% bonus true damage
+DAMAGE 80/120/160/200/240 ⇒ 70/110/150/190/230
+RATIO 0.8 ability power ⇒ 0.7 ability power
+R - Unleashed Power
+COOLDOWN 100/90/80 seconds ⇒ 120/100/80 seconds
+
+Talon
+Q sustain up. Mana regeneration per level up.
+
+Now that Talon’s update has given opponents the opportunity to fight back against his kill pattern, it’s safe for us to give Talon better fallback opportunities to recover from an unfavorable matchup. We’re giving League’s free-runner more room to interact safely with minions in situations where he’s relegated to farming under turret.
+Base Stats
+MANA REGENERATION GROWTH STAT .5 ⇒ .75
+Passive - Blade's End
+FLASHIER MOVES Slightly bumped up brightness of passive particles
+Q - Noxian Diplomacy
+HEAL ON KILL 15 + 2/lvl ⇒ 17 + 3/lvl
+Elementalist Lux VFX
+We've heard feedback around the clarity of Elementalist Lux's visuals, and have a few changes to address those concerns.
+E - Lucent Singularity’s missile has been adjusted to better distinguish it from Elementalist Lux’s other effects. It’s now primarily swirling ribbons of light.
+Adjusted W - Prismatic Barrier’s shield visuals on several forms to maintain similar levels of brightness and noise
+Warning indicator on R - Final Spark adjusted to be immediately visible on-cast, rather than brightening over the duration
+Back to top
+Items
+
+Zz'rot Portal
+Portal cooldown and duration reduced. Voidspawn health scaling down and decay rate up. Voidspawn structure damage up.
+
+Zz’Rot Portal should be the go-to defensive item for tanks who want to opt into a pushing strategy. However, we also want ZZ’Rot to be an engaging item that informs a tank’s playstyle, not something they fire and forget. The high travel range of Voidspawn gives Zz’Rot too much pressure even when its owner isn’t around to curate or replace it. We’re sharpening Zz’Rot’s power as the go-to tower-sieging item for aggressive pushers, while toning down its ability to control a lane from afar.
+VOID GATE DURATION 150 seconds ⇒ 120 seconds
+COOLDOWN 150 seconds ⇒ 120 seconds
+VOIDSPAWN STRUCTURE DAMAGE 5 per level (max 90) ⇒ 20 per level (max 360)
+REMOVEDVOIDSPAWN HEALTH SCALING Voidspawn no longer gain 50 health per level
+VOIDSPAWN HEALTH DECAY 10% current health every 0.25 seconds ⇒ 20% current health every 0.25 seconds
+CREEPY, NOT CREEPS Killing a voidspawn no longer increases your creep score
+Back to top
+Summoner’s Rift
+Living Jungle
+New mechanics come with some growing pains, so we’re still clearing up a few odd interactions with plants. Right now we see some room to add clarity and consistency by introducing a few quality of life changes that make the effects of plants easier to predict and read.
+General
+FLOWING IN THE BREEZE Once scouted, plants continue emitting idle VFX through fog of war
+VEGETARIAN Attacking plants no longer puts Kha'Zix in combat, preventing Evolved R - Void Assault's out-of-combat invisibility from activating upon entering brush
+Scryer’s Bloom
+WHO PINGED THAT? Auto-pings on revealed champions have been toned down to be distinguishable from player-issued pings
+NEWWARD PING Revealed wards now trigger a small auto-ping
+Honeyfruit
+FRUIT NEEDS PICKING Pickup radius of fruits slightly reduced
+Blast Cone
+HELPING Malzahar and Rengar can now be affected by allied Blast Cone triggers during their spell immunity effects
+Jungle Experience
+First clear experience reduced. Some overall clear experience funneled into Raptors.
+
+With camps spawning less frequently but granting higher rewards, pre-season buffed early jungling four-fold. Junglers leave clears with more health, experience, and gold - and a longer stretch of time to flex those advantages before camps respawn. We made these changes to reduce the tradeoffs of ganking, with the flip side being a reduction in late clear payouts. Junglers have to make an impact on the game with their early power, else that power dissipates over time. That said, many junglers end up so far ahead of laners for so long that they’re dictating the early game.
+
+In order to curb this dominance, we reduced Smite’s sustain partway through 6.24 and are following up by reducing first-clear experience. First buff + two small camps will still net junglers level 3, but it’ll take six camps to hit level 4, rather than five. With sustain and experience toned down, jungler gold pools may naturally fall in line as well. We’ll continue monitoring as the first few patches of the year progress.
+
+(Side-note: while Crimson Raptor grants less experience than a little Raptor on paper, it’s a large monster so jungle items add another 50. Math!)
+Monster experience rewards
+FIRST CLEAR Murkwolf, Raptor, Krug, and Gromp camps grant 25% less experience on first clear (stacks additively with Ancient Krug’s 50% reduced experience on first clear)
+BLUE SENTINEL 210 ⇒ 200
+RED BRAMBLEBACK 210 ⇒ 200
+GROMP 210 ⇒ 200
+KRUGS 45 ⇒ 35
+LESSER KRUGS 15 ⇒ 7
+CRIMSON RAPTOR 15 ⇒ 20
+RAPTORS 15 ⇒ 35
